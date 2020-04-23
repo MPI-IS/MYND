@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="blocks_remaining_plural">
+        <item quantity="one">%d block remaining\n(%d minutes)</item>
+        <item quantity="other">%d blocks remaining\n(%d minutes)</item>
+    </plurals>
+ <plurals name="continue_session">
+        <item quantity="one">Continue with remaining block</item>
+        <item quantity="other">Continue with remaining blocks</item>
+    </plurals>
+
+    <string name="steps_file">Instructions/Steps.json</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="dialog_positive">OK</string>
+    <string name="dialog_negative">Cancel</string>
+    <string name="dialog_signup_id_hint">Your ID</string>
+    <string name="dialog_signup_pw_hint">Password</string>
+
+
+    <string name="signUpDialogTitle">Please enter your ID and the password that you see in the questionnaire to continue.</string>
+
+    <string name="session_card_startbutton">Get Started</string>
+    <string name="image_descr_logo_signup" translatable="false">Image showing the logo of project mynd</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="password_wrong">Password is wrong. Please try again</string>
+    <string name="next_session_button">Continue with %1</string>
+    <string name="cancel">Cancel</string>
+    <string name="menu_tutorial">Tutorial</string>
+    <string name="image_descr_bg" translatable="false">background image</string>
+    <string name="next_step">Continue</string>
+    <string name="descr_restingstate">In this scenario you will be asked to let your mind wander with open and closed eyes, while your brain waves are recorded to tune the system.</string>
+    <string name="title_resting_state">Resting State</string>
+ <string name="title_music_imagery">Music Imagery</string>
+ <string name="title_positive_memories">Positive Memories</string>
+ <string name="descr_positive_memories">In this scenario you will be asked to think of positive memories of your past, or to mentally subtract some numbers. Please close your eyes while doing those tasks.</string>
+    <string name="descr_music_imagery">In this scenario you will be asked to think of songs you enjoy, or to mentally subtract some numbers. Please close your eyes while doing those tasks.</string>
+    <string name="button_finish">Finish</string>
+
+    <string name="toolbar_title_settings">Settings</string>
+    <string name="toolbar_title_recordinghistory">Recorded Data</string>
+    <string name="pref_descr_devmode">Enabling this mode will allow you to change the behaviour of this application for debugging purposes</string>
+    <string name="pref_title_muse">Muse Headband</string>
+    <string name="pref_category_datastorage">Data Storage</string>
+    <string name="pref_descr_recordeddata">Files are always stored on this device</string>
+    <string name="pref_title_recordeddata">Recorded Data</string>
+    <string name="pref_category_userprefs">Subject Info</string>
+    <string name="pref_title_participantid">Subject ID</string>
+    <string name="pref_title_tts">Text-To-Speech</string>
+    <string name="pref_title_erase">Reset Study Progress</string>
+    <string name="pref_descr_erase_data">Click to reset the state. Recorded files will not be deleted</string>
+    <string name="pref_title_automatic_transfer">Automatic Transfer</string>
+    <string name="pref_title_devmode">Developer Mode</string>
+    <string name="pref_title_advanced">Advanced</string>
+    <string name="pref_title_owncloud">OwnCloud Credentials</string>
+    <string name="trial_sitstill">We are about to start</string>
+    <string name="trial_thankyou">Well done, thank you!</string>
+    <string name="trial_eyesopen">Relax and keep your eyes open</string>
+    <string name="trial_eyesclosed">Relax and keep your eyes closed</string>
+    <string name="trial_getready">Now close your eyes</string>
+    <string name="trial_musicimagery">Play a favorite song in your head</string>
+    <string name="trial_positivememory">Think of a positive memory of your past</string>
+    <string name="trial_mentalsubtraction">Count backwards, starting from %s, in steps of %s.</string>
+    <string name="continue_block">Next block</string>
+    <string name="block_completed_title">Block Completed</string>
+    <string name="block_completed_text">You finished block %d of %d in the current scenario. The next block will take %d minutes. Would you like to continue?</string>
+    <string name="continue_scenario">Next scenario</string>
+    <string name="scenario_completed_title">Scenario Completed</string>
+    <string name="scenario_completed_text">You finished all trials in this scenario. Would you like to go directly to the next scenario</string>
+    <string name="study_completed_title">Study Completed</string>
+    <string name="study_completed_text">You finished the whole study. Click below to finish.</string>
+    <string name="pause_finish">Back To Main Menu</string>
+    <string name="trial_takebreak">Take a short break.</string>
+    <string name="press_again_cancel">Press again to cancel.</string>
+    <string name="owncloud_dialog_username">Please enter the OwnCloud username</string>
+    <string name="owncloud_dialog_pw">Please enter the OwnCloud password</string>
+    <string name="owncloud_dialog_title">OwnCloud</string>
+    <string name="owncloud_dialog_unchanged"><![CDATA[<unchanged>]]></string>
+    <string name="create_zip">Create Zip</string>
+    <string name="start_session">Get Started</string>
+    <string name="date_format_filename">yyyy_MM_dd_HH-mm_ss</string>
+    <string name="button_ok_charge">Exit</string>
+    <string name="settings_dialog_title">Password required</string>
+    <string name="settings_dialog_text">Enter developer password</string>
+    <string name="settings_dialog_positive">Done</string>
+    <string name="pref_tts_summary">Automatically reads aloud instructions.</string>
+    <string name="connection_established">Connection established</string>
+    <string name="not_connected">Not connected</string>
+    <string name="first_time_instruction">You can cancel this session at any time by pressing the cancel button in the top. If the button below is blue, you can proceed to the next step. If the button is grey, some condition has to be fulfilled before you can proceed. Tap the blue button now to continue.</string>
+    <string name="posessivePatient">your</string>
+    <string name="dialog_signup_name_hint">Your first name</string>
+    <string name="study_done_home">There is a second part of the questionnaire. Please continue on the Tablet.\nPassword: "mynd"</string>
+    <string name="home_card_batterylow">Before continuing with the study, please charge the phone.</string>
+    <string name="home_card_batterytitle">Battery low</string>
+    <string name="muse_battery_low">The battery of the headset is low. Please charge it before continuing with the study.</string>
+    <string name="today">Today</string>
+    <string name="error_ok">Exit</string>
+    <string name="disonnected_title">Headset Disconnected</string>
+    <string name="disconnected_text">Your headset disconnected itself. We apologize for the inconvenience.</string>
+    <string name="delete_all">Delete All</string>
+    <string name="no_recordings_yet">No recordings yet</string>
+    <string name="ttsinit_nextscenario">The next scenario is:</string>
+    <string name="ttsinit_repeatingscenario">There was an interruption in the last block. We will now start the following scenario from the beginning:</string>
+
+
+</resources>

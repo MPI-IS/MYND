@@ -1,0 +1,128 @@
+{
+  "name": "Project MYND Step Strings",
+  "identifier": "Steps",
+  "version": 1.0,
+  "locale": "de-DE",
+  "modes": [
+    {
+      "mode": "Start",
+      "instructions": [
+        {
+          "name": "water",
+          "pictureName": "water.mp4",
+          "instruction": "Los geht's, #helperName#. Stellen Sie ein Glas Wasser bereit, Sie benötigen es im nächsten Schritt. Tippen Sie auf den Bildschirm, um Instruktionen noch einmal zu hören. Mit dem blauen Knopf gelangen Sie zum nächsten Schritt."
+        },
+        {
+          "name": "environment",
+          "pictureName": "i4.jpg",
+          "instruction": "Stellen Sie sicher, dass es während der Aufnahme ruhig ist. Falls elektronische Geräte in der Nähe sind, können diese die Signale beeinflussen. Schalten Sie sie, wenn möglich, aus."
+        },
+        {
+          "name": "hair",
+          "pictureName": "glasses.mp4",
+          "instruction": "Gegebenenfalls, binden Sie #possessivePatient# Haare zurück und nehmen Sie #possessivePatient# Brille ab, damit das Headset direkt an der Haut anliegen kann."
+        },
+        {
+          "name": "location",
+          "pictureName": "ic_location.png",
+          "instruction": "Bitte erlauben Sie nach einem klick auf die untere Schaltfläche, auf Ihren Standort zuzugreifen. Diese Berechtigung ist für die Verbindung mit dem Headset notwendig."
+        },
+        {
+          "name": "location_repeating",
+          "pictureName": "ic_location.png",
+          "instruction": "Die App kann sich ohne Erlaubnis nicht mit dem Headset verbinden. Bitte erlauben Sie die Verwendung des Standorts."
+        },
+        {
+          "name": "bluetooth",
+          "pictureName": "ic_bluetooth.png",
+          "instruction": "Drücken Sie auf die Schaltfläche unten, um Bluetooth einzuschalten, sodass das Gerät verbunden werden kann."
+        },
+        {
+          "name": "turnOn",
+          "pictureName": "turnon.mp4",
+          "instruction": "Schalten Sie jetzt bitte das Headset ein. Halten Sie den Knopf auf der Innenseite kurz gedrückt, bis es blinkt. Das Headset ist verbunden, wenn es aufhört zu blinken. Sobald es verbunden ist, können Sie mit dem nächsten Schritt fortfahren."
+        },
+        {
+          "name": "pullOut",
+          "pictureName": "expand.mp4",
+          "instruction": "Ziehen Sie die Seiten des Headsets wie abgebildet heraus. Sie können Sie später für besseren Sitz wieder enger ziehen."
+        },
+        {
+          "name": "waterOn",
+          "pictureName": "wateron.mp4",
+          "instruction": "Wie oben demonstriert, können Sie jetzt etwas Wasser auf #possessivePatient# Stirn träufeln, um die Signalqualität zu verbessern."
+        },
+        {
+          "name": "putOn",
+          "pictureName": "puton.mp4",
+          "instruction": "Setzen Sie jetzt das Headset wie eine Brille auf. Es sollte auf den Ohren sitzen und über #possessivePatient# Stirn verlaufen."
+        },
+        {
+          "name": "push",
+          "pictureName": "push.mp4",
+          "instruction": "Sehr gut! Stellen Sie jetzt sicher, dass das Headset an der Stirn und hinter den Ohren anliegt, indem Sie die Seiten wie abgebildet zusammenschieben."
+        }
+      ]
+    },
+    {
+      "mode": "initialFitting",
+      "instructions": [
+        {
+          "name": "demo",
+          "pictureName": "",
+          "instruction": "Im nächsten Schritt zeigen Ihnen die obigen Ringe an, wie gut das Headset sitzt. Die Ringe füllen sich, wenn die entsprechenden Sensoren guten Kontakt haben"
+        },
+        {
+          "name": "front",
+          "pictureName": "front.mp4",
+          "instruction": "Lassen Sie uns mit den zwei Stirnsensoren beginnen. Stellen Sie sicher, dass diese gut an der Stirn anliegen, dann schließen Sie die Augen für eine Weile. Wiederholen Sie den Vorgang bis die Ringe gefüllt sind."
+        },
+        {
+          "name": "back",
+          "pictureName": "back.mp4",
+          "instruction": "Als nächstes widmen wir uns den Sensoren hinter den Ohren. Es sollten sich keine Haare zwischen Sensor und Haut befinden. Schieben Sie die Seiten des Headsets zusammen, dann schließen Sie die Augen und warten etwas. Wiederholen Sie den Vorgang bis die Ringe gefüllt sind."
+        },
+        {
+          "name": "done",
+          "pictureName": "checkmark.png",
+          "instruction": "Fantastisch, #patientName#, Sie sind bereit! Klicken Sie auf die Schaltfläche, um fortzufahren."
+        }
+      ]
+    },
+    {
+      "mode": "checkUp",
+      "instructions": [
+        {
+          "name": "intro",
+          "pictureName": "front.mp4",
+          "instruction": "Lassen Sie uns kurz überprüfen, ob alle Sensoren noch gut sitzen. Passen Sie das Headset gegebenenfalls wie zuvor an. Wenn alle Ringe geschlossen sind, geht es weiter."
+        },
+        {
+          "name": "done",
+          "pictureName": "checkmark.png",
+          "instruction": "Fantastisch #patientName#, alles sitzt gut! Klicken Sie unten, um fortzufahren."
+        }
+      ]
+    },
+    {
+      "mode": "Finish",
+      "instructions": [
+        {
+          "name": "turnOff",
+          "pictureName": "takeoff.mp4",
+          "instruction": "Bitte schalten Sie zum Abschluss Ihr Headset aus. Vielen Dank für Ihren Beitrag zu unserer Forschung, #patientName#!"
+        }
+      ]
+    },
+    {
+      "mode": "Cancel",
+      "instructions": [
+        {
+          "name": "intro",
+          "pictureName": "turnoff.mp4",
+          "instruction": "Sie haben die aktuelle Sitzung unterbrochen. Ihr Fortschritt wurde nicht gespeichert. Bitte schalten Sie zum Abschluss Ihr Headset aus. Bis bald!"
+        }
+      ]
+    }
+  ]
+}

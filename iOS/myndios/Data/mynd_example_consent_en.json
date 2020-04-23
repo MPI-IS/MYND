@@ -1,0 +1,130 @@
+{
+    "name": "Project MYND Example Consent of Participation",
+    "identifier": "Consent",
+    "version": 1.0,
+    "locale": "en-US",
+    "title": "Project MYND Example Consent of Participation",
+    "boarding": [
+                 {
+                 "identifier": "tts",
+                 "type": "mc",
+                 "title": "Text to speech",
+                 "text": "Instructions during recordings will always be spoken. Would you like all additional instructions to be spoken as well? You can change this option at any time in the settings.",
+                 "optional": false,
+                 "choices" : [
+                              {
+                              "text": "Yes, please read out all instructions",
+                              "value": 1
+                              },
+                              {
+                              "text": "No, only read instructions during recordings",
+                              "value": 0
+                              }
+                              ]
+                 },
+                 {
+                 "identifier": "notifications",
+                 "type": "instruction",
+                 "title": "Notifications",
+                 "text": "Next, the app will ask you to allow notifications. If you do so, the app can send you reminders on when to start the next set of sessions. No other notifications will be sent."
+                 },
+                 {
+                 "identifier": "wifi",
+                 "type": "instruction",
+                 "title": "Internet Access",
+                 "text": "The app will always work without an internet connection and store your data on this device. However, if you have WiFi access, data can be uploaded to our server. If you haven't done so, we strongly encourage you to enable WiFi on this device. If you have difficulties with the setup, please consult the manual or contact the experimenter."
+                 },
+                 {
+                 "identifier": "boarding",
+                 "type": "instruction",
+                 "title": "About the study",
+                 "text": "Dear participant, thank you for your participation. We would like to let you know about the study details, and ask a few questions on the following pages. Tap the blue button below this text to continue. If the text is too long, you can scroll by swiping on the screen."
+                 }
+                 ],
+    "steps": [
+              {
+              "type": "overview",
+              "title": "Consent",
+              "content": "We would like to present you with a few details about the study on the following pages, and ask you to give your consent at the end by signing with your finger. If you are a caregiver or a relative, please sign for the person that agreed to participate in this study."
+              },
+              {
+              "type": "dataGathering",
+              "summary": "Short description of the gathered data",
+              "content": "Long description of the gathered data"
+              },
+              {
+              "type": "privacy",
+              "summary": "A short description of your privacy measures",
+              "content": "A long description of your privacy measures"
+              },
+              {
+              "type": "dataUse",
+              "summary": "A short description of your data use",
+              "content": "A long description of your data use."
+              },
+              {
+              "type": "timeCommitment",
+              "summary": "A short explanation of the time commitment and compensation.",
+              "content": "A long explanation of the time commitment and compensation."
+              },
+              {
+              "type": "studySurvey",
+              "summary": "A short description of included questionnaires",
+              "content": "A long description of included questionnaires"
+              },
+              {
+              "type": "studyTasks",
+              "summary": "A short description of included tasks",
+              "content": "A long description of included tasks"
+              },
+              {
+              "type": "withdrawing",
+              "summary": "A short disclaimer of voluntariness",
+              "content": "A long disclaimer of voluntariness"
+              },
+              {
+              "type": "custom",
+              "title": "Device usage",
+              "content": "A long description of the device rental terms"
+              },
+              {
+              "type": "custom",
+              "title": "Insurance",
+              "content": "A long description of insurance during study"
+              },
+              {
+              "type": "onlyInDocument",
+              "title": "Consent",
+              "content": " Explanation of consent, only present in the final PDF for review"
+              }
+              ],
+    "questions": [
+                  {
+                  "identifier": "patientName",
+                  "type": "text",
+                  "title": "Participant Name",
+                  "text": "Please write the first name of the person who participates in this study below. This is the person that will have their brain waves recorded with the headset.",
+                  "optional": false,
+                  "input": "word"
+                  },
+                  {
+                  "identifier": "caregiverName",
+                  "type": "text",
+                  "title": "Helper Name",
+                  "text": "If there is a care giver or a relative that helps with putting on the headset and controlling this app, indicate their first name below. Otherwise, click skip.",
+                  "input": "word"
+                  },
+                  {
+                  "identifier": "finishedConsent",
+                  "type": "instruction",
+                  "title": "All done!",
+                  "text": "Thank you! You agreed to join the study, and entered the names which the app will use to adress you during the sessions. If you would like to change them later, you can do so in the settings. The next screen is the main menu, which allows you to start your first session right away!"
+                  },
+                  {
+                  "identifier": "dayExplanation",
+                  "type": "instruction",
+                  "title": "Sessions and Days",
+                  "text": "A small note on study progression. The whole study is split into several days. If you start with the first session of a day, you have a certain amount of time to complete the remaining sessions before the app advances to the next day. If you need to take a day off, the app will wait for you. If you have any questions, do not hesitate to contact the experimenter."
+                  }
+                  ]
+}

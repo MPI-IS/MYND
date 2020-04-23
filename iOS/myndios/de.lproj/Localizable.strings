@@ -1,0 +1,158 @@
+/*
+ Localizable.strings
+ myndios
+ 
+ Created by Matthias Hohmann on 27.07.18.
+ Copyright © 2018 Matthias Hohmann. All rights reserved.
+ */
+
+/* DEUTSCH */
+
+/*
+ VIEW CONTROLLERS
+ */
+
+/* Universal */
+"#cancel#" = "Abbrechen";
+"#ok#" = "OK";
+"#settings#" = "Einstellungen";
+"#help#" = "Hilfe";
+"#of#" = "von";
+"#your#" = "die";
+"#hours#" = "Stunden";
+"#minutes#" = "Minuten";
+"#seconds#" = "Sekunden";
+"#participant#" = "Teilnehmer";
+"#helper#" = "Helfer";
+
+/* Consent */
+"#consentTitle#" = "Einverständniserklärung";
+"#participant#" = "Teilnehmer";
+"#reviewConsent#" = "Zusammenfassung";
+"#reasonForConsent#" = "Wenn Sie bereit sind, der Studie beizutreten, klicken Sie auf akzeptieren. Sie werden im nächsten Schritt gefragt, den Namen der Person anzugeben, die an dieser Studie teilnehmen wird, und mit dem Finger zu unterschreiben.";
+"#noWiFiTitle#" = "Keine Internetverbindung";
+"#noWiFiText#" = "Wir konnten zum jetzigen Zeitpunkt keine WLAN Verbindung zum Internet herstellen. Sie können ohne WLAN fortfahren. Wir würden Sie bitten, WLAN später zu aktivieren, um den vollen Funktionsumfang der App nutzen zu können.";
+
+/* Login View Controller */
+"#enter_ID#" = "Bitte geben Sie Ihre Benutzerkennung und das Passwort ein, welches Sie auf Ihrem Fragebogen finden.";
+"#your_ID#" = "Ihre Benutzerkennung";
+"#password#" = "Passwort";
+
+/* Settings View Controller */
+
+"#enterNamesTitle#" = "Namen ändern";
+"#enterNamesText#" = "Bitte schreiben Sie den Namen des Teilnehmers und, wenn nötig, den Namen des Helfers in die Felder unten.";
+"#patientName#" = "Name des Teilnehmers";
+"#helperName#" = "(Optional) Name des Helfers";
+
+
+/* Main View Controller */
+"#foundHeadset#" = "Headset gefunden, bitte warten.";
+"#connectedHeadset#" = "Headset verbunden.";
+"#disconnectedHeadset#" = "Verbindung beendet.";
+"#headsetOnHead#" = "Headset wurde aufgesetzt.";
+"#goodSignalFront#" = "Vorne sitzt es!";
+"#goodSignalBack#" = "Hinten sitzt es auch!";
+"#goodSignal#" = "Alle Sensoren sitzen!";
+
+"#lowVolumeTitle#" = "Niedrige Lautstärke";
+"#lowVolumeText#" = "Ihre Lautstärke ist sehr niedrig. Wenn möglich, erhöhen Sie die Lautstärke mit den Knöpfen an der Seite dieses Geräts, um alle Instruktionen klar verstehen zu können.";
+
+/* Home View Controller */
+"#1minuteRemaining#" = "1 Minute verbleibend";
+"#completed#" = "Geschafft";
+"#minutesRemaining#" = "Minuten verbleibend";
+"#nextDayIn#" = "Nächster Tag in";
+"#newMessage#" = "Neue Nachricht";
+"#getStarted#" = "Sitzung starten";
+
+/* Messages */
+"#yourScoreTitle#" = "Ihre Performanz";
+"#yourScoreText#" = "We received your data and caluclated your average performance over the last days. ";
+"#yourScoreEntry#" = "For %s, you scored %d points.";
+
+/* Select View Controller */
+"#contactExp_Title#" = "Versuchsleiter kontaktieren";
+"#contactExp_Message#" = "Sie haben den Versuch erfolgreich beendet. Bitte kontaktieren Sie den Versuchsleiter.";
+"#finishStudy#" = "Studie beenden";
+"#next#" = "Nächste: ";
+"#blockDuration#" = "Ein Block wird ca. %d Minuten dauern.";
+
+/* Step View Controller */
+"#confirmToCancel#" = "Sicher? Klicken Sie erneut um zu beenden";
+"#stepDidTimeOut#" = "Wenn es ein Problem gibt, starten Sie die App einfach neu";
+"#nextStep#" = "Weiter";
+"#youHaveTimeRemaining#" = "Sie haben noch %s, um verbleibende Sitzungen für den heutigen Tag abzuschließen.";
+
+/* Error View Controller */
+"#batteryLowTitle#" = "Akku Leer";
+"#batteryLowText#" = "Der Akku Ihres Headsets ist leer. Bitte laden Sie es auf, bevor Sie mit der Studie fortfahren. Wir haben den Durchgang abgebrochen.";
+"#headsetDisconnected_Title#" = "Verbindung unterbrochen";
+"#headsetDisconnected_Message#" = "Ihr Headset hat die Verbindung unterbrochen. Möglicherweise hat die App einen Fehler verursacht. Bitte starten Sie das Gerät neu und versuchen es nochmal. Wir entschuldigen uns für die Unanehmlichkeiten.";
+
+/* Pause View Controller */
+"#blockCompletedTitle#" = "Block geschafft";
+"#blockCompletedText#" = "Sie haben eine weitere Runde an Durchgängen geschafft. Wählen Sie aus, ob sie weiter machen möchten, oder die Sitzung für heute beenden wollen.";
+"#continueBlock#" = "Nächster Block";
+
+"#scenarioCompletedTitle#" = "Szenario geschafft";
+"#scenarioCompletedText#" = "Sie haben alle Durchgänge im Szenario geschafft. Wählen Sie aus, ob sie mit dem nächsten Szenario weiter machen möchten, oder die Sitzung für heute beenden wollen.";
+"#continueScenario#" = "Nächstes Szenario";
+
+"#dayCompletedTitle#" = "Tag abgeschlossen";
+"#dayCompletedText#" = "Sie haben alle Szenarien für diesen Tag abgeschlossen. Klicken Sie auf den blauen Knopf, um die Sitzung zu beenden.";
+"#endScenario#" = "Sitzung beenden";
+
+/* Upload View Controller */
+"#upload_Progress#" = "Daten werden übertragen";
+"#upload_Failed#" = "Datenübertragung fehlgeschlagen";
+"#upload_Complete#" = "Datenübertragung abgeschlossen";
+
+/* Wait Controller */
+"#waitMessage#" = "Sie haben heute mit %d Minuten Aufzeichnung zu unserer Forschung beigetragen, vielen Dank!#globalStatsMessage##timeOutMessage#";
+"#continueMessage#" = "Sie können jetzt mit dem blauen Knopf unten zu den Sitzungen für den nächsten Tag gelangen.";
+"#timeOutMessage#" = "Sie können mit den Sitzungen für den nächsten Tag in %s weiter machen. Sie können die App bis dahin schließen und später wiederkommen.";
+"#globalStatsMessage#" = " Bis jetzt haben gemeinsam mit Ihnen %d weitere Teilnehmer in %d Sitzungen %d Minuten Aufzeichnung beigetragen! ";
+"#studyCompleteMessage#" = "Sie haben die gesamte Studie abgeschlossen, vielen Dank für Ihre Unterstützung über diesen langen Zeitraum! Kontaktieren Sie bitte den Versuchsleiter und senden Sie das System zurück, sobald Sie eine Gelegenheit dazu haben.";
+"#studyCompleteTitle#" = "Studie abgeschlossen";
+
+/* Banner Controller */
+"#UNNextDayTitle#" = "Neuer Tag";
+"#UNNextDayText#" = "ein neuer Tag an Sitzuungen ist jetzt verfügbar. Starten Sie die App, um loszulegen!";
+
+/* Transfer Delegate */
+"#transmissionProgress#" = "Daten werden übertragen";
+"#transferInterrupted#" = "Wir haben die gesammelten Daten sicher gespeichert und werden versuchen, sie im nächsten Durchgang zu übertragen.";
+"#transferFailed#" = "Es scheint, als seien Sie nicht mit dem Internet verbunden. Wir haben Ihre Daten sicher gespeichert und werden später erneut versuchen sie hochzuladen. Bitte aktivieren Sie gegebenenfalls Ihre WLAN Verbindung.";
+"#transferSuccessful#" = "Wir haben Ihre Daten erfolgreich übertragen. Sie können mit dem blauen Knopf fortfahren.";
+"#transferDisabled#" = "Sie haben die automatische Datenübertragung deaktiviert. Wir haben Ihre Daten sicher auf diesem Gerät gespeichert. Sie können jetzt ins Menü zurückkehren.";
+
+/*
+ SCENARIOS
+ */
+
+/* Phases */
+"#takeBreak#" = "Kurze Pause";
+
+/* Trials */
+"#sitStill#" = "Gleich geht es los";
+"#thankYou#" = "Gut gemacht, vielen Dank!";
+"#getReady#" = "Schließen Sie jetzt die Augen";
+
+"#eyesOpen#" = "Entspannen Sie sich mit geöffneten Augen";
+"#eyesClosed#" = "Entspannen Sie sich mit geschlossenen Augen";
+
+"#musicImagery#" = "Spielen Sie im Kopf ein Lieblingslied von Ihnen ab";
+"#positiveMemory#" = "Denken Sie an eine positive Erinnerung aus Ihrer Vergangenheit";
+"#mentalSubtraction#" = "Zählen Sie rückwärts. Von %d, in Schritten von %d";
+
+/* Scenarios */
+
+"#restingState_Title#" = "Ruhe Phase";
+"#restingState_Description#" = "In diesem Szenario werden Sie gefragt, Ihre Gedanken mit offenen oder geschlossenen Augen wandern zu lassen. Sie können denken, an was Sie möchten.";
+
+"#musicImagery_Title#" = "Musik im Kopf";
+"#musicImagery_Description#" = "In diesem Szenario werden Sie gebeten, sich an Ihre liebsten Musikstücke zu erinnern, oder im Kopf Zahlen zu subtrahieren. Bitte halten Sie die Augen während der Aufgaben geschlossen.";
+
+"#positiveMemories_Title#" = "Positive Erinnerungen";
+"#positiveMemories_Description#" = "In diesem Szenario werden Sie gebeten, sich an positive Erinnerungen aus Ihrer Vergangenheit zu erinnern, oder im Kopf Zahlen zu subtrahieren. Bitte halten Sie die Augen während der Aufgaben geschlossen.";

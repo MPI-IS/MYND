@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/view_toolbar" />
+
+    <TextView
+        android:id="@+id/norecordingshint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgroundstatic"
+        android:text="@string/no_recordings_yet"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/createzipbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_zip"
+        android:background="@drawable/newbutton"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        />
+
+    <Button
+        android:id="@+id/deleteallbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_all"
+        android:background="@drawable/newbutton"
+        android:textColor="@android:color/white"
+        android:layout_margin="10dp"
+
+
+        android:foreground="?android:attr/selectableItemBackground"
+        />
+
+
+    <ListView
+        android:id="@+id/recording_list"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+    </ListView>
+    
+
+
+</LinearLayout>

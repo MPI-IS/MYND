@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scenario_root"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/view_toolbar" />
+
+    <ProgressBar
+        android:id="@+id/block_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-4dp"
+        tools:progress="50"
+        android:scaleY="2"
+        style="?android:attr/progressBarStyleHorizontal"
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minLines="5"
+        android:textSize="30sp"
+        android:gravity="top|center_horizontal"
+        tools:text="Your daecorded. This will be an instruction soon." />
+
+    <ImageView
+        android:id="@+id/fixationcross"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/fixation"
+        android:layout_gravity="center"
+        />
+
+
+
+</LinearLayout>

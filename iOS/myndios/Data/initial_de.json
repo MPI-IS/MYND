@@ -1,0 +1,126 @@
+{
+  "name": "Initial questionnaire",
+  "identifier": "initial",
+  "version": 1.0,
+  "locale": "de-DE",
+  "title": "Über Sie",
+  "text": "#patientName#, wir würden Sie zunächst gerne nach ein paar persönlichen Informationen fragen. Wir möchten noch einmal darauf hinweisen, dass alle Antworten ohne Ihren Namen gespeichert werden.",
+  "image": "initial.jpg",
+  "questions": [
+    {
+        "identifier": "age",
+        "type": "date",
+        "title": "Ihr Alter",
+        "text": "Wann sind Sie geboren?",
+        "optional": false
+    },
+    {
+        "identifier": "handedness",
+        "type": "mc",
+        "title": "Händigkeit",
+        "text": "Welches ist oder war Ihre dominante Hand?",
+        "optional": false,
+        "choices" : [
+          {
+            "text": "Linkshändig",
+            "value": 2
+          },
+          {
+            "text": "Rechtshändig",
+            "value": 1
+          },
+          {
+            "text": "Beidhändig",
+            "value": 0
+          }
+        ]
+    },
+    {
+        "identifier": "degree",
+        "type": "mc",
+        "title": "Bildung",
+        "text": "Bitte klicken Sie die Option an, die Ihrer höchsten abgeschlossenen Ausbildung entspricht.",
+        "optional": false,
+        "choices" : [
+          {
+            "text": "Universität oder Fachhochschule",
+            "value": 5
+          },
+          {
+            "text": "Allgemeine Hochschulreife",
+            "value": 4
+          },
+          {
+            "text": "Mittlere Reife",
+            "value": 3
+          },
+          {
+            "text": "Grundschule",
+            "value": 2
+          },
+          {
+            "text": "Kein Abschluss",
+            "value": 1
+          }
+        ]
+    },
+    {
+        "identifier": "work",
+        "type": "text",
+        "title": "Beruf",
+        "text": "Verfolgen Sie momentan eine Ausbildung oder einen Beruf? Wenn ja, geben Sie ihn bitte an. Wenn nicht, antworten sie mit keine.",
+        "optional": false,
+        "input": "word"
+    },
+    {
+        "identifier": "smartphone",
+        "type": "mc",
+        "title": "Smartphone Erfahrung",
+        "text": "Bitte klicken Sie die Option an, die Ihrer Erfahrung mit Smartphones am meisten entspricht.",
+        "optional": false,
+        "choices" : [
+          {
+            "text": "Sehr erfahren",
+            "value": 4
+          },
+          {
+            "text": "Erfahren",
+            "value": 3
+          },
+          {
+            "text": "Kaum Erfahrung",
+            "value": 2
+          },
+          {
+            "text": "Keine Erfahrung",
+            "value": 1
+          }
+        ]
+    },
+    {
+        "identifier": "meditation",
+        "type": "mc",
+        "title": "Meditations-Erfahrung",
+        "text": "Bitte klicken Sie die Option an, die Ihrer Erfahrung mit Meditation am meisten entspricht.",
+        "optional": false,
+        "choices" : [
+          {
+            "text": "Sehr erfahren",
+            "value": 4
+          },
+          {
+            "text": "Erfahren",
+            "value": 3
+          },
+          {
+            "text": "Kaum Erfahrung",
+            "value": 2
+          },
+          {
+            "text": "Keine Erfahrung",
+            "value": 1
+          }
+        ]
+    }
+  ]
+  }

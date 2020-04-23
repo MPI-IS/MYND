@@ -1,0 +1,37 @@
+Back to [index](./index.md)
+
+# Models and study content
+The study model object and related sub-objects represent steps in a study with *MYND*. Models are found in the `Models` folder, JSON data to populate questionnaires and preparation instructions, as well as thumbnails for all scenarios are found in `Data`. 
+
+- The `StudyModel` is a container for all scenarios that are presented to the user during the course of the study. It also tracks completed scenarios, and has functions to advance the study and set time outs (see "Study progression"). The study consent is also generated here. `DocumentController` has the necessary static functions and generates the consent based on a localized JSON file.
+- The `ScenarioModel` is a representation of either EEG *recording* or *questionnaire* tasks. The model contains static function to generate recording and questionnaire scenarios. It also contains functions to advance through individual trials during a recording, reset progress within a scenario, and get the remaining time. The `Scenario` enumerator contains all currently featured scenarios. 
+
+## Study progression and state saving
+The `StudyController` handles state saving. Progression in the current study is stored as dictionary in user defaults, and retrieved from there when the app is relaunched. Subjects can only progress in the study by successfully completing questionnaires or EEG recordings. If a block in an EEG recording scenario was completed successfully, `SessionViewController->stop()` will ask the `StudyController` to increase the current run index by 1, store the updated amount of completed trials in user defaults, and advance the scenario counter, if the whole scenario was completed. Nothing will happen if a block was cancelled, the app was terminated, or an error occurred. The `QuestionViewController->ORKTaskViewControllerDelegate` does the same for questionnaires. In developer-mode, the developer can advance the study by tapping on the round thumbnails of each `HomeViewCell` in the scenario selection (these functions are implemented in `HomeViewCellDelegate`).
+
+A time out functionality is implemented to control the time in which subjects complete scenarios of a given day. After successfully completing either a questionnaire or a recording, the respective container views call `StudyModel -> setCurrentDayTimeOut` and set the date to now + however many seconds were indicated in `Setup`. After this, a footer will be present in `HomeView` that displays the remaining time. See "User interface -> Home view" for more details.
+
+## EEG recordings
+EEG recording scenarios are organized *hierarchically*:
+
+- Scenario: Top-level definition. The `ScenarioModel`creates a scenario by appending individual *trials* to a *block*. Several blocks make up one scenario. The model also adds meta-data, e.g., after how many trials a block is completed, description, images, baselines, and markers. Note: Blocks were introduced to ensure that subjects completed an equal amount of trials in condition A and B before taking a break and checking the signal quality. The parameter `checkAtIndex` controls the break-point and should be set such that it occurs exactly after a block concluded: e.g., if one block contains 1x welcome, 1x eyes open, 1x eyes closed, and 1x goodbye trials, it should be set to 4. Blocks are only meant to regulate scenario creation in `ScenarioModel` and do not occur outside of this use case.
+
+- Paradigm: This object, defined in `ParadigmModel` is attached to the recorded file. It defines the conditions in a scenario such that information about relevant markers, labels, and trial time can be read directly from the file by an analysis program.
+
+- Trial: Mid-level definition. The `TrialModel` is a container of several *Phases* that always occur in the same order. For example, the *eyes open* trial consists of 3 phases: 1) the prompt that instructs subjects to relax and keep their eyes open, 2) a 60-second fixation cross, which is the phase where the relevant EEG data is recorded, and 3) a short pause before the next trial is called. Trials take a 3-digit `basemarker` and generate phases with markers in +5 or +10 increments. The relevant marker that indicates the start of a fixation period, e.g., `320` in the eyes-open trial, must be indicated in the `ParadigmModel` such that the analysis program loads to correct phase for analysis later on.
+
+- Phase: Low-level definition. The `PhaseModel` is the smallest unit in a scenario. Prompt, fixation, and pause phases are implemented. Duration and marker are set in the trial definition. Duration can be set to `0` for prompts, in which case the phase concludes once the prompt was read out to the subject. Pause phases contain a random jitter between -1 and 1 second that is added to the phase duration automatically. Note: Phases also contain a feedback variable, but displaying feedback is not implemented yet.
+
+## Questionnaires, Consent, Preparation steps
+
+Questionnaire scenarios are directly loaded from a *localized JSON file* through the `DocumentController`. The study consent and hardware preparation steps are also loaded in this way. Questionnaires and the study consent were realized with *ResearchKit*. In all cases, the document controller will search for a JSON file of `[scenario]_[locale].json`, and will produce an error if it was not found.
+
+- Questionnaires: JSON files contain `title`, `text`, and `image` name of the scenario, as well as the questions. These question items are handed to the `QuestionGenerator` class. Please refer to the existing JSON documents, e.g., `motivation_en.json` for the general structure of these question items. Instructions without answer-options, short text answers, multiple choice, date answers, and numeric answers are supported.
+
+- Consent: These consent items are handled `QuestionGenerator` class. Please refer to the existing JSON documents, e.g., `mynd_example_consent_en.json` for the general structure of these items. After review, the consent is signed and the resulting PDF is stored as a file and transmitted. Additional remarks before the start of the study can be added as well.
+
+- (Hardware) preparation steps: Preparation items defined in the `StepModel`. They are prepared by the `DocumentController` class and presented before the EEG recording procedure. Please refer to `Steps_en.json` for the general structure of these items. Hardware preparation steps can be *regular* or *short*, which was implemented to progress faster through preparation after having done it several times. Videos or images can be presented alongside a preparation step. Optionally, a step can be locked until it receives a `CompletionSignal` from the device, and a `CompletionFunction` can be executed as well afterwards. See [user interface](./ui.md) for details.
+
+## Recorded data
+
+Recorded data can either have the HDF5 format for EEG recordings, JSON format for questionnaires, or a PDF for the signed consent. The `DataModel` defines the representation of such recorded data in the app. It is used to track transmitted or deleted files and attach meta-data to a recording. See [Data recording, processing, storage, and transmission](./data.md) for details.

@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="height_standardbutton">70dp</dimen>
+    <dimen name="size_fitting_circle">50dp</dimen>
+    <dimen name="instruction_text_size">20sp</dimen>
+    <!-- if battery of muse headset is lower than that, will not allow to continue -->
+    <integer name="critical_battery_level_muse">10</integer>
+    <!-- if battery of phone is lower than that, will not allow to continue -->
+    <integer name="critical_battery_level_device">12</integer>
+    <!-- default volume for media when an activity is launched -->
+    <integer name="default_volume">70</integer>
+    <!-- if volume is lower than that, it will be set to default -->
+    <integer name="critical_volume">25</integer>
+</resources>

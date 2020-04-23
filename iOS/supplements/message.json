@@ -1,0 +1,15 @@
+{
+"type": "message",
+"messages": [
+  {
+    "locale": "en",
+    "title": "Welcome",
+    "text": "#patientName#, we would like to welcome you to this study. Please let us know if you encounter any difficulties. Thank you for helping us with our research!"
+  },
+  {
+    "locale": "de",
+    "title": "Willkommen",
+    "text": "#patientName#, wir möchten Sie zu dieser Studie begrüßen. Kontaktieren Sie uns jederzeit, wenn Sie Schwierigkeiten mit der App haben. Vielen Dank, dass Sie unsere Forschung unterstützen."
+  }
+]
+}

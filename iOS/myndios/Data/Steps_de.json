@@ -1,0 +1,188 @@
+{
+    "name": "Project MYND Step Strings",
+    "identifier": "Steps",
+    "version": 1.0,
+    "locale": "de-DE",
+    "modes": [
+              {
+              "mode": "Start",
+              "instructions": [
+                               {
+                               "name": "navigation",
+                               "pictureName": "",
+                               "instruction": "Sie können diese Sitzung jederzeit mit dem Abbrechen Knopf oben links beenden. Ist der Knopf unten blau, können Sie mit den nächsten Schritt fortfahren. Ist der Knopf grau, muss zunächst eine bestimmte Bedingung erfüllt sein, bevor es weiter geht. Wenn Sie Instruktionen noch einmal hören möchten, tippen Sie diesen Text an. Klicken Sie jetzt auf den blauen Knopf um fortzufahren."
+                               },
+                               {
+                               "name": "water",
+                               "pictureName": "water.jpeg",
+                               "instruction": "Los geht's, #helperName#. Versichern Sie sich, dass der iPod aufgeladen ist. Stellen Sie ein Glas Wasser bereit, Sie benötigen es im nächsten Schritt. Mit dem blauen Knopf gelangen Sie zum nächsten Schritt.",
+                               "short": "Das iOS Gerät sollte aufgeladen sein. Holen Sie ein Glas Wasser."
+                               },
+                               {
+                               "name": "hair",
+                               "pictureName": "glasses.mp4",
+                               "instruction": "Gegebenenfalls, binden Sie #possessivePatient# Haare zurück und nehmen Sie #possessivePatient# Brille ab, damit das Headset direkt an der Haut anliegen kann."
+                               },
+                               {
+                               "name": "turnOn",
+                               "pictureName": "turnOn.mp4",
+                               "instruction": "Schalten Sie jetzt bitte das Headset ein. Halten Sie den Knopf auf der Innenseite drei Sekunden gedrückt, bis es blinkt. Das Headset ist verbunden, wenn es aufhört zu blinken. Sobald es verbunden ist, können Sie mit dem nächsten Schritt fortfahren.",
+                               "short": "Schalten Sie jetzt bitte das Headset ein.",
+                               "completionSignal": "connected",
+                               "buttonTitle": "Warten auf Verbindung",
+                               "buttonSuccessTitle": "Verbunden, nächster Schritt",
+                               "timeOut": 120.0
+                               },
+                               {
+                               "name": "pullOut",
+                               "pictureName": "expand.mp4",
+                               "instruction": "Ziehen Sie die Seiten des Headsets wie abgebildet heraus. Sie können Sie später für besseren Sitz wieder enger ziehen."
+                               },
+                               {
+                               "name": "waterOn",
+                               "pictureName": "waterOn.mp4",
+                               "instruction": "Wie oben demonstriert, können Sie jetzt etwas Wasser auf #possessivePatient# Stirn träufeln, um die Signalqualität zu verbessern."
+                               },
+                               {
+                               "name": "putOn",
+                               "pictureName": "putOn.mp4",
+                               "instruction": "#helperName#, setzen Sie jetzt das Headset wie eine Brille auf den Kopf #ofPatient# auf. Es sollte auf den Ohren aufsitzen, die schwarzen Gummi-Elektroden sollen hinter den Ohren anliegen. Zentrieren Sie das Headset vorne über den Augenbrauen, es sollte über die Stirn verlaufen.",
+                               "short": "Benetzen Sie #possessivePatient# Stirn mit Wasser, nehmen Sie bei Bedarf #possessivePatient# Brille ab oder binden Sie die Haare zurück, und setzen Sie das Headset wie eine Brille auf den Kopf #ofPatient# auf."
+                               },
+                               {
+                               "name": "push",
+                               "pictureName": "push.mp4",
+                               "instruction": "Stellen Sie jetzt sicher, dass das Headset an der Stirn und hinter den Ohren anliegt, indem Sie die Seiten wie abgebildet zusammenschieben. Es sollte jedoch weiterhin angenehm zu tragen sein.",
+                               "short": "Justieren Sie die Seiten des Headsets, sodass es an der Stirn und hinter den Ohren anliegt."
+                               },
+                               {
+                               "name": "environment",
+                               "pictureName": "electricity.jpeg",
+                               "instruction": "Stellen Sie sicher, dass es während der Aufnahme ruhig ist. Falls elektronische Geräte in der Nähe sind, können diese die Signale beeinflussen. Schalten Sie sie, wenn möglich, aus. Wir werden im nächsten Schritt die Qualität Ihrer Umgebung messen. Ringe werden Ihnen anzeigen, wie ungestört jeder Sensor messen kann.",
+                               "short": "Schalten Sie elektronische Geräte, wenn möglich, aus. Wir messen jetzt die Qualität Ihrer Umgebung."
+                               }
+                               ]
+              },
+              {
+              "mode": "noise",
+              "instructions": [
+                               {
+                               "name": "intro",
+                               "pictureName": "noise.mp4",
+                               "instruction": "Zuerst möchten wir Ihnen helfen, elektrische Störquellen zu beseitigen. Stecken Sie alle elektrischen Geräte aus, die Sie nicht benötigen, oder bewegen Sie sich an einen anderen Ort, um die Ringe so gut wie möglich zu füllen. Sie können jederzeit fortfahren.",
+                               "short": "Überprüfen Sie die Umgebung auf Störquellen.",
+                               "completionSignal": "",
+                               "completionFunction": "success"
+                               },
+                               {
+                               "name": "done",
+                               "pictureName": "",
+                               "instruction": "Danke! Als nächstes zeigen Ihnen Ringe an, wie gut das Headset sitzt. Um die Ringe zu füllen, verengen Sie das Headset, dann schließen Sie die Augen und entspannen Sie Ihre Gesichtsmuskulatur, #patientName#. Wiederholen Sie diesen Vorgang bis alle Anzeigen gefüllt sind."
+                               }
+                               ]
+              },
+              {
+              "mode": "initialFitting",
+              "instructions": [
+                               {
+                               "name": "front",
+                               "pictureName": "front.mp4",
+                               "instruction": "Lassen Sie uns nun die zwei Stirnsensoren anlegen. Stellen Sie sicher, dass diese an der Stirn anliegen, dann schließen Sie die Augen und warten Sie etwas. Wiederholen Sie den Vorgang bis die Anzeigen gefüllt sind.",
+                               "short": "Passen Sie die Sensoren vorne an #possessivePatient# Stirn an, dann warten Sie.",
+                               "completionSignal": "goodSignalFront",
+                               "completionFunction": "activateBack",
+                               "timeOut": 180.0
+                               },
+                               {
+                               "name": "back",
+                               "pictureName": "back.mp4",
+                               "instruction": "Als nächstes widmen wir uns den Sensoren hinter den Ohren. Es sollten sich keine Haare zwischen Sensor und Haut befinden. Schieben Sie die Seiten des Headsets zusammen, dann schließen Sie die Augen und warten etwas. Wiederholen Sie den Vorgang bis die Ringe gefüllt sind.",
+                               "short": "Passen Sie die Sensoren hinter den Ohren an, achten Sie dabei auf #possessivePatient# Haare. Dann warten Sie.",
+                               "completionSignal": "goodSignalBack",
+                               "completionFunction": "success",
+                               "timeOut": 180.0
+                               },
+                               {
+                               "name": "done",
+                               "pictureName": "",
+                               "instruction": "Fantastisch, #patientName#, Sie sind bereit! Die Aufzeichnung wird etwa #blockDuration# Minuten dauern. Klicken Sie 'Weiter' um zu beginnen.",
+                               "short": "Fantastisch, #patientName#, Sie sind bereit! Die Aufzeichnung wird etwa #blockDuration# Minuten dauern. Klicken Sie 'Weiter' um zu beginnen."
+                               }
+                               ]
+              },
+              {
+              "mode": "checkUp",
+              "instructions": [
+                               {
+                               "name": "intro",
+                               "pictureName": "check.mp4",
+                               "instruction": "Lassen Sie uns kurz überprüfen, ob alle Sensoren noch gut sitzen. Passen Sie das Headset gegebenenfalls wie zuvor an. Wenn alle Ringe geschlossen sind, geht es weiter.",
+                               "short": "Überprüfen Sie bitte die Sensoren.",
+                               "completionSignal": "goodSignal",
+                               "completionFunction": "success",
+                                "timeOut": 180.0
+                               },
+                               {
+                               "name": "done",
+                               "pictureName": "",
+                               "instruction": "Fantastisch #patientName#, alles sitzt gut! Die Aufzeichnung wird etwa #blockDuration# Minuten dauern. Klicken Sie 'Weiter' um zu beginnen.",
+                               "short": "Fantastisch #patientName#, Sie sind bereit! Die Aufzeichnung wird etwa #blockDuration# Minuten dauern. Klicken Sie 'Weiter' um zu beginnen."
+                               }
+                               ]
+              },
+              {
+              "mode": "introCompleted",
+              "instructions": [
+                               {
+                               "name": "intro",
+                               "pictureName": "",
+                               "instruction": "Gratulation, Sie haben Ihre Sitzung erfolgreich beendet. Wenn Sie sich sicher im Umgang mit dem Headset und der App fühlen, können Sie in den Einstellungen jederzeit die Instruktionen verkürzen. Sie können dort außerdem die Sprachausgabe deaktivieren, wenn Sie möchten.",
+                               "completionSignal": "",
+                               "completionFunction": ""
+                               }
+                               ]
+              },
+              {
+              "mode": "Finish",
+              "instructions": [
+                               {
+                               "name": "intro",
+                               "pictureName": "takeOff.mp4",
+                               "instruction": "Bitte schalten Sie zum Abschluss Ihr Headset aus und schließen Sie es an das Ladegerät an. Mit Beenden gelangen Sie zum Hauptmenü zurück. Vielen Dank für Ihren Beitrag zu unserer Forschung, #patientName#. #youHaveTimeRemaining#",
+                               "short": "Bitte schalten Sie zum Abschluss Ihr Headset aus und laden es auf. Mit Beenden gelangen Sie zum Hauptmenü zurück. Vielen Dank für Ihren Beitrag zu unserer Forschung, #patientName#!. #youHaveTimeRemaining#",
+                               "buttonSuccessTitle": "Beenden",
+                               "completionSignal": "",
+                               "completionFunction": ""
+                               }
+                               ]
+              },
+              {
+              "mode": "QuestionnaireFinish",
+              "instructions": [
+                               {
+                               "name": "intro",
+                               "pictureName": "",
+                               "instruction": "Vielen Dank für die Beantwortung der Fragen, #patientName#. Mit Beenden gelangen Sie zum Hauptmenü zurück. #youHaveTimeRemaining#",
+                               "short": "Vielen Dank für die Beantwortung der Fragen, #patientName#. Mit Beenden gelangen Sie zum Hauptmenü zurück. #youHaveTimeRemaining#",
+                               "buttonSuccessTitle": "Beenden",
+                               "completionSignal": "",
+                               "completionFunction": ""
+                               }
+                               ]
+              },
+              {
+              "mode": "Cancel",
+              "instructions": [
+                               {
+                               "name": "intro",
+                               "pictureName": "takeOff.mp4",
+                               "instruction": "Sie haben die aktuelle Sitzung unterbrochen. Ihr Fortschritt wurde nicht gespeichert. Bitte schalten Sie Ihr Headset aus. Mit Beenden gelangen Sie zum Hauptmenü zurück. #youHaveTimeRemaining#",
+                               "short": "Sie haben die aktuelle Sitzung unterbrochen. Ihr Fortschritt wurde nicht gespeichert. Bitte schalten Sie Ihr Headset aus. Mit Beenden gelangen Sie zum Hauptmenü zurück. #youHaveTimeRemaining#",
+                               "buttonSuccessTitle": "Beenden",
+                               "completionSignal": "",
+                               "completionFunction": ""
+                               }
+                               ]
+              }
+              ]
+}

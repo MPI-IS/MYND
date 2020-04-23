@@ -1,0 +1,28 @@
+{
+    "name": "Help items",
+    "identifier": "help",
+    "version": 1.0,
+    "locale": "en-US",
+    "items": [
+              {
+              "title": "The headset just won’t connect, what can I do?",
+              "text": "Make sure the headset is charged. You can check by turning it on first, then press the on-button quickly. The amount of lights represent the charge that is left."
+              },
+              {
+              "title": "Putting the headset on takes forever or is not even possible",
+              "text": "If you cannot seem to get the headset to fit well on your head, take a break and try again later. Also, be aware that facial muscles, movements, strong breathing, and eye blinks affect the signal negatively."
+              },
+              {
+              "title": "Which electronic devices can cause problems with the signal quality?",
+              "text": "Devices that are plugged into a power outlet can cause a disturbance in signal quality when they are in your close surroundings. We recommend that you unplug all electronic devices that are not needed during the time of the recording (including electronic wheelchairs). We also recommend that you unplug the chargers as well, and that you remove all unnecessary metal objects that may contact your skin."
+              },
+              {
+              "title": "Is it bad if I cannot finish all sessions of a day?",
+              "text": "We would be happy if you finish all sessions of the day within the time window that is shown to you after completing the first session. However, it is fine if you cannot make it to the end. When the time window runs out, the app will automatically present the next set of sessions. It will wait until you started the first session for that day."
+              },
+              {
+              "title": "I would like to contact the experimenter",
+              "text": "If none of the above recommendations seem to solve your problem, feel free to contact the experimenter with the contact details that were provided to you. You can send an e-mail or call, we will get back to you as soon as possible."
+              }
+              ]
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mp_green">         #FF116656</color>
+    <color name="mp_lightgrey">     #80DDDED6</color>
+    <color name="mp_blue">          #FF3C6891</color>
+    <color name="mp_blue_disabled">#953c6891</color>
+    <color name="mp_red">           #FF812936</color>
+    <color name="mp_orange">        #FFDC8A23</color>
+    <color name="transparent_grey">#644f4f4f</color>
+    <color name="disabled_grey">#bdbdbd</color>
+</resources>

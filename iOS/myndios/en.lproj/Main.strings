@@ -1,0 +1,219 @@
+
+/* Class = "UIViewController"; title = "mynd"; ObjectID = "0uF-hP-I4A"; */
+"0uF-hP-I4A.title" = "mynd";
+
+/* Class = "UILabel"; text = "Message"; ObjectID = "1Op-FN-Ta9"; */
+"1Op-FN-Ta9.text" = "Message";
+
+/* Class = "UIButton"; normalTitle = "Acknowledgements and Copyright"; ObjectID = "1dr-fy-uHt"; */
+"1dr-fy-uHt.normalTitle" = "Acknowledgements and Copyright";
+
+/* Class = "UILabel"; text = "You finished another round of trials. Your progress was saved. Choose below whether you would like to do another one, or finish for today."; ObjectID = "3fG-Io-i9N"; */
+"3fG-Io-i9N.text" = "You finished another round of trials. Your progress was saved. Choose below whether you would like to do another one, or finish for today.";
+
+/* Class = "UILabel"; text = "Session Title"; ObjectID = "3is-V2-IPw"; */
+"3is-V2-IPw.text" = "Session Title";
+
+/* Class = "UITableViewSection"; footerTitle = "Files are always stored on this device"; ObjectID = "3vq-ct-veb"; */
+"3vq-ct-veb.footerTitle" = "Files are always stored on this device";
+
+/* Class = "UITableViewSection"; headerTitle = "Data Storage"; ObjectID = "3vq-ct-veb"; */
+"3vq-ct-veb.headerTitle" = "Data Storage";
+
+/* Class = "UIViewController"; title = "Acknowledgements"; ObjectID = "4QZ-8T-7Yd"; */
+"4QZ-8T-7Yd.title" = "Acknowledgements";
+
+/* Class = "UIButton"; normalTitle = "Recorded Data"; ObjectID = "4R0-pg-mg4"; */
+"4R0-pg-mg4.normalTitle" = "Recorded Data";
+
+/* Class = "UILabel"; text = "Enable Siri"; ObjectID = "4ds-ej-g8X"; */
+"4ds-ej-g8X.text" = "Enable Siri";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "6dC-o3-AHx"; */
+"6dC-o3-AHx.text" = "Label";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "89E-UH-HiP"; */
+"89E-UH-HiP.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "9Gt-BR-9hl"; */
+"9Gt-BR-9hl.text" = "Label";
+
+/* Class = "UIViewController"; title = "LoginView"; ObjectID = "9lT-U8-3Vi"; */
+"9lT-U8-3Vi.title" = "LoginView";
+
+/* Class = "UITableViewSection"; headerTitle = "User Preferences"; ObjectID = "AWg-nH-6RV"; */
+"AWg-nH-6RV.headerTitle" = "User Preferences";
+
+/* Class = "UIButton"; normalTitle = "Next Step"; ObjectID = "Aqe-Y0-VvN"; */
+"Aqe-Y0-VvN.normalTitle" = "Next Step";
+
+/* Class = "UILabel"; text = "Shorten Instructions"; ObjectID = "Bea-5c-X6I"; */
+"Bea-5c-X6I.text" = "Shorten Instructions";
+
+/* Class = "UIButton"; normalTitle = "Store"; ObjectID = "CJZ-Zn-upd"; */
+"CJZ-Zn-upd.normalTitle" = "Store";
+
+/* Class = "UILabel"; text = "Muse Headband"; ObjectID = "Crj-9o-jcT"; */
+"Crj-9o-jcT.text" = "Muse Headband";
+
+/* Class = "UITableViewController"; title = "Today"; ObjectID = "D04-7t-MuJ"; */
+"D04-7t-MuJ.title" = "Today";
+
+/* Class = "UIBarButtonItem"; title = "Settings"; ObjectID = "DP1-FS-iIm"; */
+"DP1-FS-iIm.title" = "Settings";
+
+/* Class = "UITableViewController"; title = "Data"; ObjectID = "E1m-Uv-M4L"; */
+"E1m-Uv-M4L.title" = "Data";
+
+/* Class = "UIButton"; normalTitle = "Continue Study"; ObjectID = "GAy-vd-8I0"; */
+"GAy-vd-8I0.normalTitle" = "Continue Study";
+
+/* Class = "UILabel"; text = "SQ"; ObjectID = "Kr6-7I-TIg"; */
+"Kr6-7I-TIg.text" = "SQ";
+
+/* Class = "UIButton"; normalTitle = "Erase Data and Settings"; ObjectID = "LAa-D6-Jqq"; */
+"LAa-D6-Jqq.normalTitle" = "Erase Data and Settings";
+
+/* Class = "UILabel"; text = "Done for Today!"; ObjectID = "LtA-uG-RdY"; */
+"LtA-uG-RdY.text" = "Done for Today!";
+
+/* Class = "UILabel"; text = "Automatic Transfer"; ObjectID = "MIP-JH-cEB"; */
+"MIP-JH-cEB.text" = "Automatic Transfer";
+
+/* Class = "UILabel"; text = "Keychain Entry"; ObjectID = "MV2-Xd-DsJ"; */
+"MV2-Xd-DsJ.text" = "Keychain Entry";
+
+/* Class = "UIButton"; normalTitle = "Continue with another trial"; ObjectID = "MtS-W5-5NF"; */
+"MtS-W5-5NF.normalTitle" = "Continue with another trial";
+
+/* Class = "UIButton"; normalTitle = "Got it"; ObjectID = "OTq-el-s8o"; */
+"OTq-el-s8o.normalTitle" = "Got it";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "OyE-2S-LL2"; */
+"OyE-2S-LL2.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "Upload in Progress"; ObjectID = "QMK-9T-Rau"; */
+"QMK-9T-Rau.text" = "Upload in Progress";
+
+/* Class = "UIButton"; normalTitle = "Next Hint"; ObjectID = "QnR-a9-OO9"; */
+"QnR-a9-OO9.normalTitle" = "Next Hint";
+
+/* Class = "UILabel"; text = "Enable Developer Mode"; ObjectID = "S4B-lQ-KUZ"; */
+"S4B-lQ-KUZ.text" = "Enable Developer Mode";
+
+/* Class = "UILabel"; text = "Today"; ObjectID = "SV8-hR-nrm"; Note = "Today"; */
+"SV8-hR-nrm.text" = "Today";
+
+/* Class = "UILabel"; text = "Current"; ObjectID = "SbD-Az-7SV"; */
+"SbD-Az-7SV.text" = "Current";
+
+/* Class = "UIButton"; normalTitle = "Change Names"; ObjectID = "Txv-9p-GUA"; */
+"Txv-9p-GUA.normalTitle" = "Change Names";
+
+/* Class = "UITableViewController"; title = "Settings"; ObjectID = "UNz-K9-Ct2"; */
+"UNz-K9-Ct2.title" = "Settings";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "XBP-WB-CYC"; */
+"XBP-WB-CYC.text" = "Date";
+
+/* Class = "UIButton"; normalTitle = "Recover Last Message"; ObjectID = "YCt-dd-Hc5"; */
+"YCt-dd-Hc5.normalTitle" = "Recover Last Message";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Zjt-r7-dIh"; */
+"Zjt-r7-dIh.text" = "Label";
+
+/* Class = "UITableViewController"; title = "Help"; ObjectID = "a64-Io-8S8"; */
+"a64-Io-8S8.title" = "Help";
+
+/* Class = "UILabel"; text = "We are securely uploading your data to our servers. You can dismiss this view while the upload continues in the background "; ObjectID = "aBb-m8-2xj"; */
+"aBb-m8-2xj.text" = "We are securely uploading your data to our servers. You can dismiss this view while the upload continues in the background ";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "b0x-ik-Q0j"; */
+"b0x-ik-Q0j.placeholder" = "Password";
+
+/* Class = "UIButton"; normalTitle = "Get Started"; ObjectID = "b7p-V4-Dvs"; */
+"b7p-V4-Dvs.normalTitle" = "Get Started";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "bhK-B2-i6d"; */
+"bhK-B2-i6d.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UIButton"; normalTitle = "Get Started"; ObjectID = "cAb-uS-YsJ"; */
+"cAb-uS-YsJ.normalTitle" = "Get Started";
+
+/* Class = "UILabel"; text = "Time Out"; ObjectID = "dLo-CO-z5B"; */
+"dLo-CO-z5B.text" = "Time Out";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "eON-Ds-cHz"; */
+"eON-Ds-cHz.text" = "Name";
+
+/* Class = "UILabel"; text = "Message"; ObjectID = "g3N-CZ-prv"; */
+"g3N-CZ-prv.text" = "Message";
+
+/* Class = "UIButton"; normalTitle = "Next Step"; ObjectID = "gBM-I8-CEw"; */
+"gBM-I8-CEw.normalTitle" = "Next Step";
+
+/* Class = "UIButton"; normalTitle = "Start Session"; ObjectID = "hq9-d9-rHy"; */
+"hq9-d9-rHy.normalTitle" = "Start Session";
+
+/* Class = "UIButton"; normalTitle = "Got it"; ObjectID = "i0H-Au-MLV"; */
+"i0H-Au-MLV.normalTitle" = "Got it";
+
+/* Class = "UILabel"; text = "ID"; ObjectID = "iBy-LT-SEk"; */
+"iBy-LT-SEk.text" = "ID";
+
+/* Class = "UIButton"; normalTitle = "Finish"; ObjectID = "iYu-iy-KTu"; */
+"iYu-iy-KTu.normalTitle" = "Finish";
+
+/* Class = "UILabel"; text = "AUX Electrode"; ObjectID = "kCL-6R-2cJ"; */
+"kCL-6R-2cJ.text" = "AUX Electrode";
+
+/* Class = "UIViewController"; title = "MainViewController"; ObjectID = "kZp-w1-HKv"; */
+"kZp-w1-HKv.title" = "MainViewController";
+
+/* Class = "UILabel"; text = "Type"; ObjectID = "m4h-a3-DaK"; */
+"m4h-a3-DaK.text" = "Type";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "mVl-51-NCZ"; */
+"mVl-51-NCZ.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "Block Completed"; ObjectID = "mb3-V5-drt"; */
+"mb3-V5-drt.text" = "Block Completed";
+
+/* Class = "UITableViewSection"; headerTitle = "Acknowledgements"; ObjectID = "nMy-ZC-Dc9"; */
+"nMy-ZC-Dc9.headerTitle" = "Acknowledgements";
+
+/* Class = "UILabel"; text = "na"; ObjectID = "odj-yS-vao"; */
+"odj-yS-vao.text" = "na";
+
+/* Class = "UIBarButtonItem"; title = "Help"; ObjectID = "qLz-0R-fx0"; */
+"qLz-0R-fx0.title" = "Help";
+
+/* Class = "UITableViewSection"; footerTitle = "If no source is selected, a generic oscillator will be activated during recording sessions"; ObjectID = "qqw-qd-exV"; */
+"qqw-qd-exV.footerTitle" = "If no source is selected, a generic oscillator will be activated during recording sessions";
+
+/* Class = "UITableViewSection"; headerTitle = "Data Source"; ObjectID = "qqw-qd-exV"; */
+"qqw-qd-exV.headerTitle" = "Data Source";
+
+/* Class = "UINavigationItem"; title = "Settings"; ObjectID = "rjC-5M-0uC"; */
+"rjC-5M-0uC.title" = "Settings";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "snz-4b-g3x"; */
+"snz-4b-g3x.normalTitle" = "Sign Up";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim v1dr-fy-uHteniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "uzt-A0-3Aa"; */
+"uzt-A0-3Aa.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "wjE-hI-wCp"; */
+"wjE-hI-wCp.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "Please provide the password that is necessary to upload or download items to OwnCloud. It will be stored securely in iOS Keychain"; ObjectID = "xSF-FD-5a2"; */
+"xSF-FD-5a2.text" = "Please provide the password that is necessary to upload or download items to OwnCloud. It will be stored securely in iOS Keychain";
+
+/* Class = "UILabel"; text = "Spectral View"; ObjectID = "y0I-Ho-W4d"; */
+"y0I-Ho-W4d.text" = "Spectral View";
+
+/* Class = "UITableViewSection"; footerTitle = "Enabling this mode will allow you to change the behavior of this application for debugging purposes"; ObjectID = "zT8-AU-j1T"; */
+"zT8-AU-j1T.footerTitle" = "Enabling this mode will allow you to change the behavior of this application for debugging purposes";
+
+/* Class = "UITableViewSection"; headerTitle = "Developer Mode"; ObjectID = "zT8-AU-j1T"; */
+"zT8-AU-j1T.headerTitle" = "Developer Mode";

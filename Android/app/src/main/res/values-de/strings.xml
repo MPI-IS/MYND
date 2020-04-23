@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <plurals name="blocks_remaining_plural">
+      <item quantity="one">%d Block übrig \n(%d Minuten)</item>
+      <item quantity="other">%d Blocks übrig\n(%d Minuten)</item>
+   </plurals>
+   <string name="steps_file">Instructions/Steps_de.json</string>
+
+   <plurals name="continue_session">
+      <item quantity="one">Verbleibenden Block starten</item>
+      <item quantity="other">Jetzt weitermachen</item>
+   </plurals>
+
+   <string name="action_settings">Einstellungen</string>
+
+   <string name="dialog_positive">OK</string>
+   <string name="dialog_negative">Abbrechen</string>
+   <string name="dialog_signup_id_hint">Ihre ID</string>
+   <string name="dialog_signup_pw_hint">Passwort</string>
+
+
+   <string name="session_card_startbutton">Jetzt beginnen</string>
+   <string name="sign_up">Anmelden</string>
+   <string name="password_wrong">Passwort ist falsch. Bitte erneut versuchen.</string>
+   <string name="next_session_button">Weitermachen mit %s</string>
+   <string name="cancel">Abbrechen</string>
+   <string name="menu_tutorial">Tutorial</string>
+   <string name="next_step">Fortfahren</string>
+   <string name="title_resting_state">Ruhephase</string>
+   <string name="title_positive_memories">Positive Erinnerungen</string>
+   <string name="title_music_imagery">Musik im Kopf</string>
+   <string name="button_finish">Beenden</string>
+   <string name="toolbar_title_settings">Einstellungen</string>
+   <string name="toolbar_title_recordinghistory">Aufgenommene Daten</string>
+   <string name="pref_title_muse">Muse Headband</string>
+   <string name="pref_category_datastorage">Datenspeicherung</string>
+   <string name="pref_descr_recordeddata">Dateien werden immer auf dem Gerät gespeichert.</string>
+   <string name="pref_title_recordeddata">Aufgenommene Daten</string>
+   <string name="pref_category_userprefs">Versuchsperson</string>
+   <string name="pref_title_participantid">VPN-ID</string>
+   <string name="pref_title_tts">Text-To-Speech</string>
+   <string name="pref_title_erase">Fortschritt zurücksetzen</string>
+   <string name="pref_descr_erase_data">Die Studie neu beginnen. Aufzeichnungsdaten werden nicht gelöscht</string>
+   <string name="pref_title_automatic_transfer">Automatische Übertragung</string>
+   <string name="pref_title_devmode">Entwicklermodus</string>
+   <string name="pref_title_advanced">Erweitert</string>
+   <string name="pref_title_owncloud">OwnCloud Anmeldung</string>
+
+   <string name="trial_sitstill">Gleich geht es los</string>
+   <string name="trial_thankyou">Gut gemacht, vielen Dank!</string>
+   <string name="trial_eyesopen">Entspannen Sie sich und halten Sie Ihre Augen geöffnet</string>
+   <string name="trial_eyesclosed">Schließen Sie jetzt Ihre Augen und entspannen Sie sich</string>
+   <string name="trial_getready">Schließen Sie jetzt Ihre Augen</string>
+   <string name="trial_musicimagery">Spielen Sie im Kopf ein Lieblingslied von Ihnen ab</string>
+   <string name="trial_positivememory">Denken Sie an eine positive Erinnerung aus Ihrer Vergangenheit.</string>
+   <string name="trial_mentalsubtraction">Zählen Sie abwärts von %s, in Schritten von %s.</string>
+   <string name="continue_block">Nächster Block</string>
+   <string name="block_completed_title">Block abgeschlossen</string>
+   <string name="block_completed_text">Sie haben Block %d von %d des aktuellen Szenarios abgeschlossen. Der nächste Block dauert %d Minuten. Möchten Sie fortfahren?</string>
+   <string name="continue_scenario">Nächstes Szenario</string>
+   <string name="scenario_completed_title">Szenario abgeschlossen</string>
+   <string name="scenario_completed_text">Sie haben alle Blöcke dieses Szenarios abgeschlossen. Möchten Sie direkt mit dem nächsten Szenario fortfahren?</string>
+   <string name="study_completed_title">Studie abgeschlossen</string>
+   <string name="study_completed_text">Sie haben die komplette Studie abgeschlossen. Klicken Sie, um zurück ins Hauptmenü zu gelangen</string>
+   <string name="pause_finish">Zurück zum Hauptmenü</string>
+   <string name="trial_takebreak">Machen Sie eine kurze Pause</string>
+   <string name="press_again_cancel">Erneut drücken zum Abbrechen</string>
+
+    <string name="settings_dialog_title">Passwort erforderlich</string>
+    <string name="settings_dialog_text">Entwickler-Passwort eingeben</string>
+    <string name="settings_dialog_positive">Fertig</string>
+   <string name="pref_tts_summary">Texte vorlesen lassen</string>
+   <string name="connection_established">Verbunden</string>
+   <string name="not_connected">Nicht verbunden</string>
+
+
+   <string name="owncloud_dialog_username">Bitte den Owncloud-Benutzernamen eingeben.</string>
+   <string name="owncloud_dialog_pw">Bitte das Owncloud-Passwort eingeben.</string>
+
+   <string name="owncloud_dialog_title">OwnCloud</string>
+   <string name="owncloud_dialog_unchanged"><![CDATA[<unverändert>]]></string>
+   <string name="create_zip">Zip erstellen</string>
+   <string name="start_session">Jetzt beginnen</string>
+   <string name="date_format_filename">yyyy_MM_dd_HH-mm_ss</string>
+   <string name="button_ok_charge">Beenden</string>
+    <string name="pref_descr_devmode">Entwicklereinstellungen aktivieren</string>
+   <string name="signUpDialogTitle">Bitte geben Sie die ID und das Passwort ein, das Sie bekommen haben</string>
+   <string name="descr_restingstate">In diesem Szenario werden Sie gebeten, Ihre Gedanken mit offenen oder geschlossenen Augen schweifen zu lassen. Die aufgezeichneten Hirnströme werden zur Einstellung des Systems verwendet.</string>
+   <string name="descr_positive_memories">In diesem Szenario werden Sie gebeten, sich an positive Erinnerungen aus Ihrer Vergangenheit zu erinnern, oder im Kopf Zahlen zu subtrahieren. Bitte halten Sie die Augen während der Aufgaben geschlossen.</string>
+   <string name="descr_music_imagery">In diesem Szenario werden Sie gebeten, sich an Ihre liebsten Musikstücke zu erinnern, oder im Kopf Zahlen zu subtrahieren. Bitte halten Sie die Augen während der Aufgaben geschlossen.</string>
+   <string name="first_time_instruction">Sie können diese Sitzung jederzeit mit dem Abbrechen Knopf oben beenden. Ist der Knopf unten blau, können Sie mit den nächsten Schritt fortfahren. Ist der Knopf grau, muss zunächst eine bestimme Bedingung erfüllt sein, bevor es weiter geht. Klicken Sie jetzt auf den blauen Knopf um fortzufahren.</string>
+    <string name="posessivePatient">Ihre</string>
+   <string name="dialog_signup_name_hint">Ihr Name</string>
+   <string name="study_done_home">Bitte bearbeiten Sie nun den zweiten Teil des Fragebogens auf dem Tablet.\nPasswort: "mynd"</string>
+    <string name="home_card_batterylow">Bitte laden Sie den Akku des Smartphones, bevor Sie mit der Studie fotfahren</string>
+    <string name="home_card_batterytitle">Akku fast leer</string>
+   <string name="muse_battery_low">Der Akku des Headsets ist fast leer. Bitte laden Sie es auf, um mit der Studie fortzufahren.</string>
+    <string name="today">Heute</string>
+   <string name="disonnected_title">Verbindung unterbrochen</string>
+   <string name="disconnected_text">Die Verbindung zum Headset wurde unterbrochen. Wir entschuldigen uns für die Unanehmlichkeiten.</string>
+   <string name="delete_all">Alle löschen</string>
+    <string name="no_recordings_yet">Noch keine Aufzeichnungen</string>
+   <string name="ttsinit_nextscenario">Das nächste Szenario heißt:</string>
+   <string name="ttsinit_repeatingscenario">Im letzten Block gab es eine Unterbrechung. Wir beginnen das folgende Szenario nochmal von vorn:</string>
+
+
+</resources>

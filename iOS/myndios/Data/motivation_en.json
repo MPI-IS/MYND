@@ -1,0 +1,77 @@
+{
+  "name": "Motivation questionnaire",
+  "identifier": "motivation",
+  "version": 1.0,
+  "locale": "en-US",
+  "title": "Today",
+  "text": "Before we get started with the recordings, we would like to ask you about your current mood, #patientName#.",
+  "image": "motivation.jpg",
+  "questions": [
+    {
+        "identifier": "howDoYouFeelToday",
+        "type": "mc",
+        "title": "How do you feel today",
+        "text": "Please tap on the answer that represents your current mood the most.",
+        "optional": false,
+        "choices" : [
+          {
+            "text": "Great",
+            "value": 5
+          },
+          {
+            "text": "Good",
+            "value": 4
+          },
+          {
+            "text": "So-So",
+            "value": 3
+          },
+          {
+            "text": "Bad",
+            "value": 2
+          },
+          {
+            "text": "Horrible",
+            "value": 1
+          }
+        ]
+    },
+    {
+        "identifier": "detailedFeeling",
+        "type": "text",
+        "title": "How exactly do you feel?",
+        "text": "Please write down one word that describes your current mood",
+        "optional": false,
+        "input": "word"
+    },
+    {
+        "identifier": "motivation",
+        "type": "mc",
+        "title": "Motivation",
+        "text": "How motivated are you to complete today's sessions?.",
+        "optional": false,
+        "choices" : [
+          {
+            "text": "Very motivated",
+            "value": 5
+          },
+          {
+            "text": "Quite motivated",
+            "value": 4
+          },
+          {
+            "text": "Somewhat motivated",
+            "value": 3
+          },
+          {
+            "text": "Not very motivated",
+            "value": 2
+          },
+          {
+            "text": "Completely unmotivated",
+            "value": 1
+          }
+        ]
+    }
+  ]
+  }

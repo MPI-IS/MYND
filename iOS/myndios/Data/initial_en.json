@@ -1,0 +1,126 @@
+{
+  "name": "Initial questionnaire",
+  "identifier": "initial",
+  "version": 1.0,
+  "locale": "en",
+  "title": "About you",
+  "text": "#patientName#, we would first like to ask you some demographic questions to get stared. Remember, all answers are stored without your name associated to it.",
+  "image": "initial.jpg",
+  "questions": [
+    {
+        "identifier": "age",
+        "type": "date",
+        "title": "Your age",
+        "text": "When were you born?",
+        "optional": false
+    },
+    {
+        "identifier": "handedness",
+        "type": "mc",
+        "title": "Handedness",
+        "text": "Which hand is or was your dominant one?",
+        "optional": false,
+        "choices" : [
+          {
+            "text": "Lefthanded",
+            "value": 2
+          },
+          {
+            "text": "Righthanded",
+            "value": 1
+          },
+          {
+            "text": "Bothhanded",
+            "value": 0
+          }
+        ]
+    },
+    {
+        "identifier": "degree",
+        "type": "mc",
+        "title": "Degree",
+        "text": "Please choose the option that resembles your highest degree the most.",
+        "optional": false,
+        "choices" : [
+          {
+            "text": "University or college degree",
+            "value": 5
+          },
+          {
+            "text": "High school diploma",
+            "value": 4
+          },
+          {
+            "text": "Middle school diploma",
+            "value": 3
+          },
+          {
+            "text": "Elementary school",
+            "value": 2
+          },
+          {
+            "text": "No degree",
+            "value": 1
+          }
+        ]
+    },
+    {
+        "identifier": "work",
+        "type": "text",
+        "title": "Work",
+        "text": "Do you currently prusue a job or a degree? If yes, please write it down below. If not, please write none.",
+        "optional": false,
+        "input": "word"
+    },
+    {
+        "identifier": "smartphone",
+        "type": "mc",
+        "title": "Smartphone experience",
+        "text": "Please select the option that resembles your smartphone experience.",
+        "optional": false,
+        "choices" : [
+          {
+            "text": "Very experienced",
+            "value": 4
+          },
+          {
+            "text": "Experienced",
+            "value": 3
+          },
+          {
+            "text": "Little experience",
+            "value": 2
+          },
+          {
+            "text": "No experience",
+            "value": 1
+          }
+        ]
+    },
+    {
+        "identifier": "meditation",
+        "type": "mc",
+        "title": "Meditation experience",
+        "text": "Please select the option that resembles your meditation experience.",
+        "optional": false,
+        "choices" : [
+          {
+            "text": "Very experienced",
+            "value": 4
+          },
+          {
+            "text": "Experienced",
+            "value": 3
+          },
+          {
+            "text": "Little experience",
+            "value": 2
+          },
+          {
+            "text": "No experience",
+            "value": 1
+          }
+        ]
+    }
+  ]
+  }

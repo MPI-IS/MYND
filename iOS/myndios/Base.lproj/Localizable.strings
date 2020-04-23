@@ -1,0 +1,156 @@
+/* 
+  Localizable.strings
+  myndios
+
+  Created by Matthias Hohmann on 27.07.18.
+  Copyright © 2018 Matthias Hohmann. All rights reserved.
+*/
+
+/* ENGLISH */
+
+/*
+ VIEW CONTROLLERS
+ */
+
+/* Universal */
+"#cancel#" = "Cancel";
+"#ok#" = "OK";
+"#settings#" = "Settings";
+"#help#" = "Help";
+"#of#" = "of";
+"#your#" = "your";
+"#hours#" = "hours";
+"#minutes#" = "minutes";
+"#seconds#" = "seconds";
+"#participant#" = "participant";
+"#helper#" = "helper";
+
+/* Consent */
+"#consentTitle#" = "Consent";
+"#participant#" = "Participant";
+"#reviewConsent#" = "Summary";
+"#reasonForConsent#" = "If you are ready to join the study, press agree. You will be ask to enter the name of the person that participates in this study, and sign with your finger on the following page.";
+"#noWiFiTitle#" = "No Internet Connection";
+"#noWiFiText#" = "We could not establish a WiFi connection at this time. You can proceed without it. Please consider enabling WiFi on this device later to enable all features of this app.";
+
+/* Login View Controller */
+"#enter_ID#" = "Please enter your ID and the password that you see in the questionnaire to continue.";
+"#your_ID#" = "Your ID";
+"#password#" = "Password";
+
+/* Settings View Controller */
+"#enterNamesTitle#" = "Change names";
+"#enterNamesText#" = "Please type the name of the participant, and, if applicable, the name of the caregiver below.";
+"#patientName#" = "Participant Name";
+"#helperName#" = "(Optional) Helper Name";
+
+/* Main View Controller */
+"#foundHeadset#" = "Headset found, please wait.";
+"#connectedHeadset#" = "Headset connected.";
+"#disconnectedHeadset#" = "Headset disconnected.";
+"#headsetOnHead#" = "Headset is on your head.";
+"#goodSignalFront#" = "Frontal sensors look good!";
+"#goodSignalBack#" = "Back sensors look good!";
+"#goodSignal#" = "All sensors look good!";
+
+"#lowVolumeTitle#" = "Low Volume";
+"#lowVolumeText#" = "Your volume is set to be very quiet. Please consider turining it up with the volume buttons on the side of this device to hear all instructions properly.";
+
+/* Home View Controller */
+"#1minuteRemaining#" = "1 minute remaining";
+"#completed#" = "Completed";
+"#minutesRemaining#" = "minutes remaining";
+"#nextDayIn#" = "Next day in";
+"#newMessage#" = "New Message";
+"#getStarted#" = "Start session";
+
+/* Messages */
+"#yourScoreTitle#" = "Your performance";
+"#yourScoreText#" = "We received your data and caluclated your average performance over the last days. ";
+"#yourScoreEntry#" = "For %s, you scored %d points.";
+
+/* Select View Controller */
+"#contactExp_Title#" = "Contact the experimenter";
+"#contactExp_Message#" = "You finished all trials! Please contact the experimenter to proceed.";
+"#finishStudy#" = "Finish study";
+"#next#" = "Next: ";
+"#blockDuration#" = "One block will approximately take %d minutes.";
+
+/* Step View Controller */
+"#confirmToCancel#" = "Click again to cancel the session";
+"#stepDidTimeOut#" = "If you encounter a problem, just cancel and restart the app";
+"#nextStep#" = "Next Step";
+"#youHaveTimeRemaining#" = "You have %s left to complete any remaining session of today.";
+
+/* Error View Controller */
+"#batteryLowTitle#" = "Battery Low";
+"#batteryLowText#" = "The battery of your headset is critically low. please charge it before continuing the study. We abort the current session.";
+"#headsetDisconnected_Title#" = "Headset Disconnected";
+"#headsetDisconnected_Message#" = "Your headset disconnected itself. This was likely caused by an issue with the application. Please restart the device and try again. We apologize for the inconvenience.";
+
+/* Pause View Controller */
+"#blockCompletedTitle#" = "Block Completed";
+"#blockCompletedText#" = "You finished another round of trials. Choose if you would like to do another one, or finish for today.";
+"#continueBlock#" = "Next block";
+
+"#scenarioCompletedTitle#" = "Scenario Completed";
+"#scenarioCompletedText#" = "You finished all trials in this scenario. Choose wether you would like to go directly to the next scenario, or finish for today.";
+"#continueScenario#" = "Next scenario";
+
+"#dayCompletedTitle#" = "Day Completed";
+"#dayCompletedText#" = "You finished all scenarios for today. Click below to finish your recording session.";
+"#endScenario#" = "End session";
+
+/* Upload View Controller */
+"#upload_Progress#" = "Upload in progress";
+"#upload_Failed#" = "Upload failed";
+"#upload_Complete#" = "Upload complete";
+
+/* Wait Controller */
+"#waitMessage#" = "You finished the scenarios for this day and helped our research with %d minutes of recordings. Thank you very much for your contribution!#globalStatsMessage##timeOutMessage#";
+"#continueMessage#" = "You can now continue with the next set of sessions by pressing the blue button below.";
+"#timeOutMessage#" = "You can continue with the next set of sessions in %s. If you want you can close the app and come back then.";
+"#globalStatsMessage#" = " Up to now, you and %d other participants have completed %d sessions and added %d minutes of recording! ";
+"#studyCompleteMessage#" = "You finished the whole study, thank you very much for your effort over this long timespan! Please contact the experimenter and ship the system back when you have time to do so.";
+"#studyCompleteTitle#" = "Study completed";
+
+/* Banner Controller */
+"#UNNextDayTitle#" = "New Day";
+"#UNNextDayText#" = "a new day of sessions is ready for you. Open the app to get started!";
+
+/* Transfer Delegate */
+"#transmissionProgress#" = "Transmission in progress";
+"#transferInterrupted#" = "We stored the data securely on this device and try to upload it at the beginning of the next session.";
+"#transferFailed#" = "It seems like you are not connected to the internet. We stored the data securely on this device and try to upload it at the beginning of the next session. Please make sure that WiFi is enabled.";
+"#transferSuccessful#" = "We successfully transmitted your recording. You can now continue by pressing the blue button.";
+"#transferDisabled#" = "You disabled automatic file transfer. We stored your data securely on tis device. You can now return to the main screen.";
+
+/*
+ SCENARIOS
+ */
+
+/* Phases */
+"#takeBreak#" = "Take a break";
+
+/* Trials */
+"#sitStill#" = "We are about to start";
+"#thankYou#" = "Well done, thank you!";
+"#getReady#" = "Close your eyes";
+
+"#eyesOpen#" = "Relax and keep your eyes open";
+"#eyesClosed#" = "Relax and keep your eyes closed";
+
+"#musicImagery#" = "Play a favorite song in your head";
+"#positiveMemory#" = "Think of a positive memory of your past";
+"#mentalSubtraction#" = "Count backwards. Starting from %d, in steps of %d";
+
+/* Scenarios */
+
+"#restingState_Title#" = "Resting State";
+"#restingState_Description#" = "In this session you will be asked to let your mind wander with open and closed eyes. You can think about whatever you like.";
+
+"#musicImagery_Title#" = "Music Imagery";
+"#musicImagery_Description#" = "In this session you will be asked to think of songs you enjoy, or to mentally subtract some numbers. Please close your eyes while doing those tasks.";
+
+"#positiveMemories_Title#" = "Positive Memories";
+"#positiveMemories_Description#" = "In this session you will be asked to think of positive memories of your past, or to mentally subtract some numbers. Please close your eyes while doing those tasks.";

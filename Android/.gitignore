@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Build output directies
+/target
+*/target
+/build
+*/build
+
+# generated files
+bin/
+gen/
+
+
+# Java class files
+*.class
+
+# IntelliJ specific files/directories
+out
+.idea
+*.ipr
+*.iws
+*.iml
+.navigation
+captures/
+
+# Gradle Files
+.gradle
+.m2
+local.properties
+

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+  <PreferenceCategory android:title="Developer" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="pref_dev_mode"
+        android:summary="@string/pref_descr_devmode"
+        android:title="@string/pref_title_devmode" />
+
+  <CheckBoxPreference
+      android:key="pref_tts"
+      android:summary="@string/pref_tts_summary"
+      android:title="@string/pref_title_tts" />
+
+
+    <PreferenceCategory android:title="@string/pref_category_datastorage" />
+  <Preference
+      android:key="pref_id_owncloud"
+      tools:summary="Change Owncloud Credentials"
+      android:selectable="true"
+      android:title="@string/pref_title_owncloud">
+  </Preference>
+    <CheckBoxPreference
+        android:key="pref_autotransfer"
+        android:title="@string/pref_title_automatic_transfer" />
+
+    <Preference
+        android:key="pref_show_recorded"
+        android:summary="@string/pref_descr_recordeddata"
+        android:title="@string/pref_title_recordeddata">
+
+    </Preference>
+
+    <PreferenceCategory android:title="@string/pref_category_userprefs" />
+
+    <Preference
+        android:key="pref_id_info"
+        tools:summary="mEval2-001"
+        android:selectable="false"
+        android:title="@string/pref_title_participantid">
+    </Preference>
+
+
+    <PreferenceCategory android:title="@string/pref_title_advanced" />
+
+    <Preference android:title="@string/pref_title_erase"
+        android:key="erasebutton"
+        android:summary="@string/pref_descr_erase_data"/>
+
+</PreferenceScreen>

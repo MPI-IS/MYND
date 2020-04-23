@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bwirth.myndandroid"
+ >
+
+    <!-- coarse location required for bluetooth-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+
+
+        <activity
+            android:name="com.bwirth.myndandroid.activity.ConnectActivity"
+            android:screenOrientation="portrait"
+            android:label="ConnectActivity"
+            android:theme="@style/AppTheme.CustomToolbar">
+        </activity>
+
+        <activity android:name=".activity.HomeActivity"
+            android:screenOrientation="portrait"
+            android:label="Mynd"
+            android:theme="@style/AppTheme.CustomToolbar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="com.bwirth.myndandroid.activity.SignUpActivity"
+            android:screenOrientation="portrait"
+            android:label="SignUp"
+            android:theme="@style/AppTheme.SignUpLauncher">
+        </activity>
+
+        <activity
+            android:name="com.bwirth.myndandroid.activity.ErrorActivity"
+            android:screenOrientation="portrait"
+            android:label="Error"
+            android:theme="@style/AppTheme.CustomToolbar">
+        </activity>
+
+
+        <activity
+                android:name="com.bwirth.myndandroid.activity.SettingsActivity"
+                android:screenOrientation="portrait"
+                android:label="Settings"
+
+                android:theme="@style/AppTheme.CustomToolbar">
+        </activity>
+
+        <activity
+            android:name="com.bwirth.myndandroid.activity.PauseActivity"
+            android:screenOrientation="portrait"
+            android:label="Pause"
+            android:theme="@style/AppTheme.CustomToolbar">
+        </activity>
+
+        <activity
+            android:name="com.bwirth.myndandroid.activity.FittingActivity"
+            android:screenOrientation="portrait"
+            android:label="FittingView"
+            android:theme="@style/AppTheme.CustomToolbar"
+            >
+        </activity>
+
+        <activity
+            android:name="com.bwirth.myndandroid.activity.BlockActivity"
+            android:screenOrientation="portrait"
+            android:label="Trial"
+            android:theme="@style/AppTheme.CustomToolbar"
+            >
+        </activity>
+
+
+        <activity
+            android:name="com.bwirth.myndandroid.activity.ScenarioActivity"
+            android:screenOrientation="portrait"
+            android:label="Trial"
+            android:theme="@style/AppTheme.CustomToolbar"
+            >
+        </activity>
+
+        <activity
+            android:name="com.bwirth.myndandroid.activity.RecordingHistoryActivity"
+            android:screenOrientation="portrait"
+            android:label="Recording History"
+            android:theme="@style/AppTheme.CustomToolbar"
+            >
+        </activity>
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,128 @@
+{
+  "name": "Project MYND Step Strings",
+  "identifier": "Steps",
+  "version": 1.0,
+  "locale": "en-US",
+  "modes": [
+    {
+      "mode": "Start",
+      "instructions": [
+        {
+          "name": "water",
+          "pictureName": "water.mp4",
+          "instruction": "Let's get started, #helperName#.  Grab a glass of water. You will use it in the next steps. By pressing the button below, you can go to the next step."
+        },
+        {
+          "name": "environment",
+          "pictureName": "i4.jpg",
+          "instruction": "Ensure that you are in a quiet environment for the recordings. Electronic devices nearby may interfere with signal quality. Please turn them off if possible."
+        },
+        {
+          "name": "hair",
+          "pictureName": "glasses.mp4",
+          "instruction": "If applicable, #possessivePatient# glasses should be taken off and hair should be tied back, to make sure that the headset will have good contact with the skin."
+        },
+        {
+          "name": "location",
+          "pictureName": "ic_location.png",
+          "instruction": "Please permit to use your location after clicking on the button. This is necessary only for the connection to the headband."
+        },
+        {
+          "name": "location_repeating",
+          "pictureName": "ic_location.png",
+          "instruction": "The app can only work with location permission. Please give permission in the following dialog."
+        },
+        {
+          "name": "bluetooth",
+          "pictureName": "ic_bluetooth.png",
+          "instruction": "Please click the button below to turn on bluetooth, so that we can connect to the headset."
+        },
+        {
+          "name": "turnOn",
+          "pictureName": "turnon.mp4",
+          "instruction": "It's time to turn on the headset. Press and hold the button on the inside until the headset starts blinking. The headset is connected when it stops blinking. You can go to the next step once the connection is established."
+        },
+        {
+          "name": "pullOut",
+          "pictureName": "expand.mp4",
+          "instruction": "Pull out the sides of the headset as shown, so it slips onto your head easily. You can push them back in to fit your head later."
+        },
+        {
+          "name": "waterOn",
+          "pictureName": "wateron.mp4",
+          "instruction": "To improve the measurements, you can sprinkle some water on #possessivePatient# head, as shown above. This will help the sensors to adjust faster to your brain waves."
+        },
+        {
+          "name": "putOn",
+          "pictureName": "puton.mp4",
+          "instruction": "Now put the headset on #possessivePatient# head like a pair of glasses. It should rest on your ears, and go across your forehead."
+        },
+        {
+          "name": "push",
+          "pictureName": "push.mp4",
+          "instruction": "Well done! Now, adjust the headset to #possessivePatient# head by pushing the sides back in that you pulled out earlier. It should sit tightly on the head."
+        }
+      ]
+    },
+    {
+      "mode": "initialFitting",
+      "instructions": [
+        {
+          "name": "demo",
+          "pictureName": "",
+          "instruction": "In the next steps, the above rings will show how well each sensor of the headset is fitted. Rings will fill up when the sensors fit well."
+        },
+        {
+          "name": "front",
+          "pictureName": "front.mp4",
+          "instruction": "Let's try to fit the two sensors in front first. Make sure they fit tightly on the forehead, then close your eyes and sit still for a while. Repeat until the rings are closed."
+        },
+        {
+          "name": "back",
+          "pictureName": "back.mp4",
+          "instruction": "Now check the sensors behind the ears. Make sure there is no hair between the ears and the sensors. Push the sides of the headset back in, so they fit tightly, then close your eyes and sit still. Repeat until the rings are closed."
+        },
+        {
+          "name": "done",
+          "pictureName": "checkmark.png",
+          "instruction": "Awesome, #patientName#, all sensors have good contact! Tap the button below to continue."
+        }
+      ]
+    },
+    {
+      "mode": "checkUp",
+      "instructions": [
+        {
+          "name": "intro",
+          "pictureName": "front.mp4",
+          "instruction": "Let's check if the sensors are still in good shape. If need be, adjust the sensors like before. You can continue when all rings are closed."
+        },
+        {
+          "name": "done",
+          "pictureName": "checkmark.png",
+          "instruction": "Awesome, #patientName#, all sensors have good contact! Tap the button below to continue."
+        }
+      ]
+    },
+    {
+      "mode": "Finish",
+      "instructions": [
+        {
+          "name": "turnOff",
+          "pictureName": "takeoff.mp4",
+          "instruction": " The session is over now, please turn off your headset. Thank you for your contribution to our research, #patientName#."
+        }
+      ]
+    },
+    {
+      "mode": "Cancel",
+      "instructions": [
+        {
+          "name": "intro",
+          "pictureName": "turnoff.mp4",
+          "instruction": "You cancelled the current run. Unsaved progress was lost. Please turn off the headset now. Bye for now!"
+        }
+      ]
+    }
+  ]
+}

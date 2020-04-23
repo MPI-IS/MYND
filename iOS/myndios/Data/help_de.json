@@ -1,0 +1,28 @@
+{
+  "name": "Help items",
+  "identifier": "help",
+  "version": 1.0,
+  "locale": "de-DE",
+  "items": [
+    {
+        "title": "Das Headset verbindet sich nicht, was kann ich tun?",
+        "text": "Stellen Sie sicher, dass das Headset ausreichend geladen ist. Schalten Sie es zunächst an, in dem Sie ein paar Sekunden den Knopf auf der Innenseite gedrückt halten. Danach können Sie mit einem kurzen Druck auf den Knopf den Ladezustand überprüfen. Die Anzahl der leuchtenden Dioden spiegelt den Ladezustand wieder."
+    },
+    {
+        "title": "Das Headset kann nur schwer oder gar nicht korrekt aufgesetzt werden",
+        "text": "Wenn die Signalqualität auch nach mehreren Versuchen nicht auszureichen scheint, versuchen Sie es einfach später erneut. Angespannte Gesichtsmuskulatur, Augenbewegungen und starkes Atmen beeinflussen das Signal negativ. Auch elektrische Geräte in der Umgebung können zu Problemen führen, versuchen Sie eventuell an einem anderen Ort aufzuzeichnen."
+    },
+            {
+            "title": "Welche elektronischen Geräte können die Signalqualität beeinflussen?",
+            "text": "Geräte die über eine Steckdose mit Strom versorgt werden können die Signalqualität beeinträchtigen, wenn sie in der Nähe sind. Wir empfehlen Ihnen, alle elektronischen Geräte, die während der Aufzeichnung nicht benötigt werden, auszuschalten (z.B. auch elektrische Rollstühle). Wir empfehlen ebenfalls, alle Ladegeräte auszustecken, und alle unnötigen metallartigen Objekte zu entfernen, die in Kontakt mit Ihrer Haut kommen."
+            },
+    {
+        "title": "Ist es ein Problem wenn ich nicht alle Sitzungen eines Tages abschließen kann?",
+        "text": "Wir würden uns sehr freuen, wenn Sie alle Sitzungen eines Tages innerhalb des angegebenen Zeitfensters abschließen können. Falls dies einmal nicht möglich sein sollte, ist das jedoch kein Problem. Nach Ablauf der Zeit schaltet die App automatisch zum nächsten Tag weiter. Die App wartet dann auf Sie, bis Sie mit der ersten Sitzung des Tages beginnen."
+    },
+    {
+        "title": "Ich möchte mit der Versuchsleitung sprechen",
+        "text": "Wenn keine der oben genannten Antworten bei Ihrem Problem hilft, kontaktieren Sie gerne die Versuchsleitung per Telefon oder E-Mail. Wir werden uns sobald wie möglich mit Ihnen in Verbindung setzen."
+    }
+  ]
+  }

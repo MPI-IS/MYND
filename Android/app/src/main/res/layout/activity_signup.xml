@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme.SignUpLauncher">
+
+
+
+    <ImageView
+        android:id="@+id/static_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/backgroundstatic"
+        />
+
+    <eightbitlab.com.blurview.BlurView
+        android:id="@+id/blurView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:contentDescription="@string/image_descr_logo_signup"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:src="@drawable/logo_universal" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.3"
+            android:background="@android:color/white" />
+
+    </eightbitlab.com.blurview.BlurView>
+
+
+    <Button
+        android:foreground="?android:attr/selectableItemBackground"
+        android:background="@drawable/newbutton"
+        android:textColor="@android:color/white"
+        android:id="@+id/button_signup"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_standardbutton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/sign_up"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="owncloud_baseURL" translatable="false">https://owncloud.tuebingen.mpg.de/remote.php/webdav/</string>
+   <string name="owncloud_path" translatable="false">recordings</string>
+   <string name="settings_password" translatable="false">admin</string>
+   <string name="signup_password" translatable="false">start</string>
+   <string name="app_name" translatable="false">mynd</string>
+   <string name="toolbar_defaulttext" translatable="false">mynd</string>
+   <string name="date_format_filelogger">MM-dd HH:mm:ss.SSS</string>
+</resources>

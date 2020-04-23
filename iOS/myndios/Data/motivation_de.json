@@ -1,0 +1,77 @@
+{
+  "name": "Motivation questionnaire",
+  "identifier": "motivation",
+  "version": 1.0,
+  "locale": "de-DE",
+  "title": "Heute",
+  "text": "Bevor wir mit den Aufzeichnungen beginnen, möchten wir Sie nach Ihrem Gemütszustand fragen, #patientName#.",
+  "image": "motivation.jpg",
+  "questions": [
+    {
+        "identifier": "howDoYouFeelToday",
+        "type": "mc",
+        "title": "Wie fühlen Sie sich heute",
+        "text": "Bitte klicken Sie die Option an, die Ihre Stimmung am besten beschreibt.",
+        "optional": false,
+        "choices" : [
+          {
+            "text": "Super",
+            "value": 5
+          },
+          {
+            "text": "Gut",
+            "value": 4
+          },
+          {
+            "text": "OK",
+            "value": 3
+          },
+          {
+            "text": "Schlecht",
+            "value": 2
+          },
+          {
+            "text": "Furchtbar",
+            "value": 1
+          }
+        ]
+    },
+    {
+        "identifier": "detailedFeeling",
+        "type": "text",
+        "title": "In einem Wort",
+        "text": "Bitte fassen Sie Ihren Momentanen Gemütszustand in einem Wort zusammen.",
+        "optional": false,
+        "input": "word"
+    },
+    {
+        "identifier": "motivation",
+        "type": "mc",
+        "title": "Motivation",
+        "text": "Wie motiviert sind Sie, die heutigen Sitzungen durchzuführen?.",
+        "optional": false,
+        "choices" : [
+          {
+            "text": "Sehr motiviert",
+            "value": 5
+          },
+          {
+            "text": "Motiviert",
+            "value": 4
+          },
+          {
+            "text": "Mäßig motiviert",
+            "value": 3
+          },
+          {
+            "text": "Wenig motiviert",
+            "value": 2
+          },
+          {
+            "text": "Gar nicht motiviert",
+            "value": 1
+          }
+        ]
+    }
+  ]
+  }

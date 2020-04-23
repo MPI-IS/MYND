@@ -1,0 +1,130 @@
+{
+    "name": "Project MYND Example Consent of Participation",
+    "identifier": "Consent",
+    "version": 1,
+    "locale": "de-DE",
+    "title": "Project MYND Beispiel Einverständniserklärung",
+    "boarding": [
+                 {
+                 "identifier": "tts",
+                 "type": "mc",
+                 "title": "Sprachausgabe",
+                 "text": "Instruktionen werden während den Aufzeichnungen immer vorgelesen. Möchten Sie sich alle weiteren Instruktionen ebenfalls vorlesen lassen? Sie können Ihre Entscheidung jederzeit in den Einstellungen ändern.",
+                 "optional": false,
+                 "choices" : [
+                              {
+                              "text": "Ja, bitte alle Instruktionen vorlesen",
+                              "value": 1
+                              },
+                              {
+                              "text": "Nein, Instruktionen nur während der Aufzeichnung vorlesen",
+                              "value": 0
+                              }
+                              ]
+                 },
+                 {
+                 "identifier": "notifications",
+                 "type": "instruction",
+                 "title": "Benachrichtigungen",
+                 "text": "Als nächstes werden Sie gefragt, ob sie Benachrichtigungen zulassen wollen. Die App kann ihnen dann Erinnerungen schicken, wenn es Zeit ist, die nächste Sitzung zu starten. Wir werden Benachrichtigungen zu keinem anderen Zweck verwenden."
+                 },
+                 {
+                 "identifier": "wifi",
+                 "type": "instruction",
+                 "title": "Internetverbindung",
+                 "text": "Die App wird problemlos ohne eine Internetverbindung funktionieren und Ihre Daten auf diesem Gerät speichern. Wenn Sie WLAN aktivieren, können die Daten an uns geschickt werden. Falls sie WLAN noch nicht auf diesem Gerät aktiviert haben, möchten wir Sie ausdrücklich bitten dies zu tun. Wenn Sie Probleme bei der Einrichtung haben, finden Sie Hilfe in der Bedienungsanleitung, andernfalls kontaktieren Sie die Versuchsleitung."
+                 },
+                 {
+                 "identifier": "boarding",
+                 "type": "instruction",
+                 "title": "Willkommen",
+                 "text": "Vielen Dank für Ihre Teilnahme. Auf den folgenden Seiten möchten wir Sie mit den Details der Studie vertraut machen und Ihnen ein paar Fragen stellen. Klicken sie auf den blauen Knopf unter diesem Text, um weiter zu kommen. Sollte der Text einmal nicht ganz zu sehen sein, können Sie über den Bildschirm streichen um nach unten zu scrollen."
+                 }
+                 ],
+    "steps": [
+              {
+              "type": "overview",
+              "title": "Einverständnis",
+              "content": "Auf den folgenden Seiten finden Sie Informationen zur Studie. Sie werden gebeten, die Einverständniserklärung am Ende zu mit Ihrem Finger zu unterschreiben. Wenn Sie eine Pflegekraft oder ein Angehöriger sind, unterschreiben Sie für die Person, die eingewilligt hat, an der Studie teilzunehmen."
+              },
+              {
+              "type": "dataGathering",
+              "summary": "Eine kurze Beschreibung der erhobenen Daten",
+              "content": "Eine lange Beschreibung der erhobenen Daten"
+              },
+              {
+              "type": "privacy",
+              "summary": "Eine kurze Beschreibung des Datenschutzes",
+              "content": "Eine lange Beschreibung des Datenschutzes"
+              },
+              {
+              "type": "dataUse",
+              "summary": "Eine kurze Beschreibung der Datennutzung",
+              "content": "Eine lange Beschreibung der Datennutzung."
+              },
+              {
+              "type": "timeCommitment",
+              "summary": "Eine kurze Beschreibung des Zeitaufwands und der Vergütung",
+              "content": "Eine lange Beschreibung des Zeitaufwands und der Vergütung"
+              },
+              {
+              "type": "studySurvey",
+              "summary": "Eine kurze Beschreibung der verwendeten Fragebögen",
+              "content": "Eine lange Beschreibung der verwendeten Fragebögen"
+              },
+              {
+              "type": "studyTasks",
+              "summary": "Eine kurze Beschreibung der Aufgaben.",
+              "content": "Eine lange Beschreibung der Aufgaben"
+              },
+              {
+              "type": "withdrawing",
+              "summary": "Eine kurze Beschreibung der Freiwilligkeit",
+              "content": "Eine lange Beschreibung der Freiwilligkeit"
+              },
+              {
+              "type": "custom",
+              "title": "Gerätenutzung",
+              "content": "Eine lange Beschreibung der Gerätenutzung oder Vermietung"
+              },
+              {
+              "type": "custom",
+              "title": "Versicherung",
+              "content": "Eine lange Beschreibung der Versicherung während der Studie"
+              },
+              {
+              "type": "onlyInDocument",
+              "title": "Einverständnis",
+              "content": "Erklärung des Einverstädnisses, nur im PDF das unterzeichnet wird"
+              }
+              ],
+    "questions": [
+                  {
+                  "identifier": "patientName",
+                  "type": "text",
+                  "title": "Name des Teilnehmers",
+                  "text": "Bitte schreiben Sie den Vornamen der Person, die an der Studie teilnehmen wird und dessen Hirnströme wir messen.",
+                  "optional": false,
+                  "input": "word"
+                  },
+                  {
+                  "identifier": "caregiverName",
+                  "type": "text",
+                  "title": "Name des Helfers",
+                  "text": "Falls ein Angehöriger oder eine Pflegekraft hilft, die App und das Headset zu bedienen, geben Sie den Vornamen an. Ansonsten drücken Sie überspringen.",
+                  "input": "word"
+                  },
+                  {
+                  "identifier": "finishedConsent",
+                  "type": "instruction",
+                  "title": "Geschafft!",
+                  "text": "Vielen Dank! Sie sind der Studie beigetreten und haben den Namen eingetragen, mit der die App Sie ab jetzt ansprechen wird. Sie können die Namen jederzeit in den Einstellungen ändern. Der nächste Bildschirm ist das Hauptmenü, in dem Sie gleich Ihre erste Sitzung starten können!"
+                  },
+                  {
+                  "identifier": "dayExplanation",
+                  "type": "instruction",
+                  "title": "Sitzungen und Tage",
+                  "text": "Noch ein Hinweis zum zeitlichen Ablauf. Die Studie ist in mehrere Tage aufgeteilt. Sobald Sie mit der ersten Sitzung eines Tages beginnen, haben Sie eine gewisse Zeitspanne, um die restlichen Sitzungen zu beenden, bevor die App zum nächsten Tag weiterschaltet. Sollten Sie einmal einen Tag Pause machen, wartet die App auf Sie. Melden Sie sich bei Fragen jederzeit bei der Versuchsleitung."
+                  }
+                  ]
+}

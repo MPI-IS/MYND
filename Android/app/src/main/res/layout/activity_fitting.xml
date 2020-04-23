@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fittingRoot"
+    android:background="@android:color/background_light"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/button_nextstep"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <include layout="@layout/view_toolbar" />
+
+        <RelativeLayout
+            android:id="@+id/centerRoot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp">
+
+            <VideoView
+                android:id="@+id/steps_videoview"
+                android:layout_width="400dp"
+                android:layout_height="225dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center" />
+
+            <ImageView
+                android:id="@+id/imageview_steps"
+                android:layout_width="400dp"
+                android:layout_height="225dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                />
+
+
+            <ImageView
+                android:id="@+id/viewmask"
+                android:layout_width="420dp"
+                android:layout_height="245dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/viewmask2" />
+
+            <ImageView
+                android:id="@+id/headImage"
+                android:layout_width="310dp"
+                android:layout_height="310dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/head" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/checkmark_left_forehead"
+                android:layout_width="@dimen/size_fitting_circle"
+                android:layout_height="@dimen/size_fitting_circle"
+                android:layout_alignStart="@+id/headImage"
+                android:layout_alignTop="@+id/headImage"
+                android:src="@drawable/checkmark"
+                />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/checkmark_right_forehead"
+                android:layout_width="@dimen/size_fitting_circle"
+                android:layout_height="@dimen/size_fitting_circle"
+                android:layout_alignEnd="@+id/headImage"
+                android:layout_alignTop="@+id/headImage"
+                android:src="@drawable/checkmark"
+                />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/checkmark_left_ear"
+                android:layout_width="@dimen/size_fitting_circle"
+                android:layout_height="@dimen/size_fitting_circle"
+                android:layout_alignBottom="@+id/headImage"
+                android:layout_alignStart="@+id/headImage"
+                android:src="@drawable/checkmark"
+                android:layout_marginBottom="15dp"
+                android:layout_marginStart="20dp"
+                />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/checkmark_right_ear"
+                android:layout_width="@dimen/size_fitting_circle"
+                android:layout_height="@dimen/size_fitting_circle"
+                android:layout_alignBottom="@+id/headImage"
+                android:layout_alignEnd="@+id/headImage"
+                android:src="@drawable/checkmark"
+                android:layout_marginBottom="15dp"
+                android:layout_marginEnd="20dp"
+                />
+
+
+            <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                android:id="@+id/fit_circle_left_forehead"
+                android:layout_width="@dimen/size_fitting_circle"
+                android:layout_height="@dimen/size_fitting_circle"
+                android:layout_alignStart="@+id/headImage"
+                android:layout_alignTop="@+id/headImage"
+                style="@style/FittingProgresCircle" />
+
+            <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                android:id="@+id/fit_circle_right_forehead"
+                android:layout_width="@dimen/size_fitting_circle"
+                android:layout_height="@dimen/size_fitting_circle"
+                android:layout_alignEnd="@+id/headImage"
+                android:layout_alignTop="@+id/headImage"
+                style="@style/FittingProgresCircle"
+                />
+
+            <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                android:id="@+id/fit_circle_left_ear"
+                android:layout_width="@dimen/size_fitting_circle"
+                android:layout_height="@dimen/size_fitting_circle"
+                android:layout_alignBottom="@+id/headImage"
+                android:layout_alignStart="@+id/headImage"
+                android:layout_marginBottom="15dp"
+                android:layout_marginStart="20dp"
+                style="@style/FittingProgresCircle" />
+
+            <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                android:id="@+id/fit_circle_right_ear"
+                android:layout_width="@dimen/size_fitting_circle"
+                android:layout_height="@dimen/size_fitting_circle"
+                android:layout_alignBottom="@+id/headImage"
+                android:layout_alignEnd="@+id/headImage"
+                android:layout_marginBottom="15dp"
+                android:layout_marginEnd="20dp"
+                style="@style/FittingProgresCircle" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/instruction_text_size"
+            tools:text="Lets focus on the sensor behind your left ear." />
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_margin="20dp"
+        android:id="@+id/button_nextstep"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:background="@drawable/newbutton"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_standardbutton"
+        android:layout_alignParentBottom="true"
+        android:text="@string/next_step"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
+

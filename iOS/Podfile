@@ -1,0 +1,47 @@
+# Uncomment the next line to define a global platform for your project
+#platform :ios
+
+# ignore all warnings from all pods
+inhibit_all_warnings!
+
+target 'myndios' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for myndios
+  # Core Features
+  # Using the versions as of November 29, 2018
+  pod 'Charts', '~> 3.2.1' # Apache License, Version 2.0
+  pod 'SwiftyJSON', '~> 4.2.0' # MIT License
+  pod 'mailcore2-ios', '~> 0.6.3' # BSD License
+  pod 'ObjectivePGP', '~> 0.15.0' # Free for non-commercial use
+  pod 'Surge', '~> 2.2.0' # MIT License
+  pod 'ResearchKit', '~> 2.0.0'
+  pod 'RxSwift', '~> 4.4.0' # MIT License
+  pod 'RxSwiftExt', '~> 3.4.0' # MIT License
+  pod 'HDF5Kit', '~> 0.3.0' # MIT License
+  pod 'KeychainSwift', '~> 13.0.0' # MIT License
+  pod 'FilesProvider', '~> 0.26.0' # MIT License
+  pod "AccelerateWatch", :path => './Dependencies/AccelerateWatch/' # originally 0.1.0, MIT License, forked and adapted, see license
+
+  # Muse framework
+  pod "libmuse", :git => "https://github.com/nuks/podspec-libmuse.git"
+
+  # UI Elements
+  pod 'NotificationBannerSwift', '~> 1.8.0' # MIT License
+  pod 'BatteryView', '~> 1.3.1' # MIT License
+  pod 'M13Checkbox', '~> 3.3.2' # MIT License
+  pod 'SwiftyGif', '~> 4.2.0' # MIT License
+  pod 'UICircularProgressRing', '~> 4.1.0' # MIT License
+  pod 'BulletinBoard', '~> 3.0.0' # MIT License
+  pod 'MarkdownView', '~> 1.5.0' # MIT License
+
+end
+
+post_install do |installer|
+	installer.pods_project.targets.each do |target|
+		target.build_configurations.each do |config|
+			config.build_settings[‘SWIFT_VERSION’] = ‘4.2’
+		end
+	end
+end

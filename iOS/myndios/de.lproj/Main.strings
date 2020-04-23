@@ -1,0 +1,274 @@
+/* Class = "UIViewController"; title = "mynd"; ObjectID = "0uF-hP-I4A"; */
+"0uF-hP-I4A.title" = "mynd";
+
+/* Class = "UILabel"; text = "Message"; ObjectID = "1Op-FN-Ta9"; */
+"1Op-FN-Ta9.text" = "Nachricht";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "3fG-Io-i9N"; */
+"3fG-Io-i9N.text" = "Sie haben eine Sitzung beendet. Ihr Fortschritt wurde gespeichert. Wählen Sie unten, ob Sie eine weitere Sitzung machen, oder zum Menü zurückkehren wollen.";
+
+/* Class = "UILabel"; text = "Session Title"; ObjectID = "3is-V2-IPw"; */
+"3is-V2-IPw.text" = "Sitzungsbeschreibung";
+
+/* Class = "UITableViewSection"; footerTitle = "Files are always stored on this device"; ObjectID = "3vq-ct-veb"; */
+"3vq-ct-veb.footerTitle" = "Die Daten werden immer auf dem Gerät gespeichert";
+
+/* Class = "UITableViewSection"; headerTitle = "Data Storage"; ObjectID = "3vq-ct-veb"; */
+"3vq-ct-veb.headerTitle" = "Daten Speicherung";
+
+/* Class = "UIButton"; normalTitle = "Recorded Data"; ObjectID = "4R0-pg-mg4"; */
+"4R0-pg-mg4.normalTitle" = "Gespeicherte Sitzungen";
+
+/* Class = "UILabel"; text = "Enable Siri"; ObjectID = "4ds-ej-g8X"; */
+"4ds-ej-g8X.text" = "Siri aktivieren";
+
+/* Class = "UINavigationItem"; title = "mynd"; ObjectID = "8L1-58-ftJ"; */
+"8L1-58-ftJ.title" = "mynd";
+
+/* Class = "UIViewController"; title = "LoginView"; ObjectID = "9lT-U8-3Vi"; */
+"9lT-U8-3Vi.title" = "LoginView";
+
+/* Class = "UITableViewSection"; headerTitle = "User Preferences"; ObjectID = "AWg-nH-6RV"; */
+"AWg-nH-6RV.headerTitle" = "Benutzervorlieben";
+
+/* Class = "UILabel"; text = "Swipe down to go back"; ObjectID = "AbO-UE-Art"; */
+"AbO-UE-Art.text" = "Nach unten ziehen um zurück zu gelangen";
+
+/* Class = "UIButton"; normalTitle = "Next Step"; ObjectID = "Aqe-Y0-VvN"; */
+"Aqe-Y0-VvN.normalTitle" = "Weiter";
+
+/* Class = "UILabel"; text = "Muse Headband"; ObjectID = "Crj-9o-jcT"; */
+"Crj-9o-jcT.text" = "Muse Headset";
+
+/* Class = "UIBarButtonItem"; title = "Settings"; ObjectID = "DP1-FS-iIm"; */
+"DP1-FS-iIm.title" = "Einstellungen";
+
+/* Class = "UITableViewController"; title = "Data"; ObjectID = "E1m-Uv-M4L"; */
+"E1m-Uv-M4L.title" = "Daten";
+
+/* Class = "UILabel"; text = "Progress"; ObjectID = "Ewc-Ja-8MM"; */
+"Ewc-Ja-8MM.text" = "Fortschritt";
+
+/* Class = "UIPageViewController"; title = "Recording Steps"; ObjectID = "GXA-2L-FnX"; */
+"GXA-2L-FnX.title" = "Recording Steps";
+
+/* Class = "UIButton"; normalTitle = "Got it"; ObjectID = "Gxg-zQ-Nge"; */
+"Gxg-zQ-Nge.normalTitle" = "Weiter";
+
+/* Class = "UILabel"; text = "SQ"; ObjectID = "Kr6-7I-TIg"; */
+"Kr6-7I-TIg.text" = "SQ";
+
+/* Class = "UIButton"; normalTitle = "Erase Data and Settings"; ObjectID = "LAa-D6-Jqq"; */
+"LAa-D6-Jqq.normalTitle" = "Daten und Einstellungen löschen";
+
+/* Class = "UILabel"; text = "Automatic Transfer"; ObjectID = "MIP-JH-cEB"; */
+"MIP-JH-cEB.text" = "Automatische Datenübermittlung";
+
+/* Class = "UIButton"; normalTitle = "Continue with another trial"; ObjectID = "MtS-W5-5NF"; */
+"MtS-W5-5NF.normalTitle" = "Mit nächster Sitzung fortfahren";
+
+/* Class = "UIButton"; normalTitle = "Got it"; ObjectID = "OTq-el-s8o"; */
+"OTq-el-s8o.normalTitle" = "Weiter";
+
+/* Class = "UILabel"; text = "Upload in Progress"; ObjectID = "QMK-9T-Rau"; */
+"QMK-9T-Rau.text" = "Daten werden hochgeladen";
+
+/* Class = "UIButton"; normalTitle = "Next Hint"; ObjectID = "QnR-a9-OO9"; */
+"QnR-a9-OO9.normalTitle" = "Nächster Tip";
+
+/* Class = "UIButton"; normalTitle = "Reset Tutorial"; ObjectID = "R2n-r7-2fT"; */
+"R2n-r7-2fT.normalTitle" = "Tutorial neu starten";
+
+/* Class = "UILabel"; text = "Progress"; ObjectID = "RcU-BU-oKl"; */
+"RcU-BU-oKl.text" = "Fortschritt";
+
+/* Class = "UILabel"; text = "Enable Developer Mode"; ObjectID = "S4B-lQ-KUZ"; */
+"S4B-lQ-KUZ.text" = "Entwicklermodus aktivieren";
+
+/* Class = "UITableViewController"; title = "Settings"; ObjectID = "UNz-K9-Ct2"; */
+"UNz-K9-Ct2.title" = "Einstellungen";
+
+/* Class = "UILabel"; text = "Next Up"; ObjectID = "Upa-g9-JQo"; */
+"Upa-g9-JQo.text" = "Nächste Sitzung";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "XBP-WB-CYC"; */
+"XBP-WB-CYC.text" = "Datum";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "XxS-lt-do6"; */
+"XxS-lt-do6.text" = "0";
+
+/* Class = "UIButton"; normalTitle = "Finish for now"; ObjectID = "Zf1-n0-blE"; */
+"Zf1-n0-blE.normalTitle" = "Beenden";
+
+/* Class = "UILabel"; text = "We are securely uploading your data to our servers. You can dismiss this view while the upload continues in the background "; ObjectID = "aBb-m8-2xj"; */
+"aBb-m8-2xj.text" = "Wir übertragen Ihre Daten sicher auf unsere Server. Sie können diese Ansicht schließen während die Datenübertragung im Hintergrund weiterläuft.";
+
+/* Class = "UIButton"; normalTitle = "Get Started"; ObjectID = "b7p-V4-Dvs"; */
+"b7p-V4-Dvs.normalTitle" = "Beginnen";
+
+/* Class = "UILabel"; text = "EEG"; ObjectID = "bZh-Uj-D2C"; */
+"bZh-Uj-D2C.text" = "EEG";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "eON-Ds-cHz"; */
+"eON-Ds-cHz.text" = "Name";
+
+/* Class = "UIViewController"; title = "Session"; ObjectID = "fYF-rz-vMI"; */
+"fYF-rz-vMI.title" = "Sitzung";
+
+/* Class = "UIButton"; normalTitle = "Next Step"; ObjectID = "gBM-I8-CEw"; */
+"gBM-I8-CEw.normalTitle" = "Weiter";
+
+/* Class = "UILabel"; text = "Swipe down to go back"; ObjectID = "hCs-Tx-4o1"; */
+"hCs-Tx-4o1.text" = "Nach unten ziehen um zurück zu gelangen";
+
+/* Class = "UIButton"; normalTitle = "Next Session"; ObjectID = "hq9-d9-rHy"; */
+"hq9-d9-rHy.normalTitle" = "Sitzung starten";
+
+/* Class = "UIButton"; normalTitle = "Got it"; ObjectID = "i0H-Au-MLV"; */
+"i0H-Au-MLV.normalTitle" = "Weiter";
+
+/* Class = "UILabel"; text = "ID"; ObjectID = "iBy-LT-SEk"; */
+"iBy-LT-SEk.text" = "ID";
+
+/* Class = "UILabel"; text = "Trials to go in session"; ObjectID = "k7J-Y9-sKz"; */
+"k7J-Y9-sKz.text" = "weitere Durchgänge in Szenario";
+
+/* Class = "UILabel"; text = "AUX Electrode"; ObjectID = "kCL-6R-2cJ"; */
+"kCL-6R-2cJ.text" = "AUX Electrode";
+
+/* Class = "UIViewController"; title = "MainViewController"; ObjectID = "kZp-w1-HKv"; */
+"kZp-w1-HKv.title" = "MainViewController";
+
+/* Class = "UILabel"; text = "Type"; ObjectID = "m4h-a3-DaK"; */
+"m4h-a3-DaK.text" = "Typ";
+
+/* Class = "UILabel"; text = "Message"; ObjectID = "mb3-V5-drt"; */
+"mb3-V5-drt.text" = "Block abgeschlossen";
+
+/* Class = "UILabel"; text = "Session Description"; ObjectID = "oVg-c0-pkG"; */
+"oVg-c0-pkG.text" = "Sitzungsbeschreibung";
+
+/* Class = "UILabel"; text = "na"; ObjectID = "odj-yS-vao"; */
+"odj-yS-vao.text" = "na";
+
+/* Class = "UIButton"; normalTitle = "Finish"; ObjectID = "iYu-iy-KTu"; */
+"iYu-iy-KTu.normalTitle" = "Beenden";
+
+/* Class = "UIBarButtonItem"; title = "Help"; ObjectID = "qLz-0R-fx0"; */
+"qLz-0R-fx0.title" = "Hilfe";
+
+/* Class = "UITableViewSection"; footerTitle = "If no source is selected, a generic oscillator will be activated during recording sessions"; ObjectID = "qqw-qd-exV"; */
+"qqw-qd-exV.footerTitle" = "Wenn keine Eingabequelle ausgewählt ist, wird zufällig generierte Gehirnaktivität für die Sitzungen verwendet";
+
+/* Class = "UITableViewSection"; headerTitle = "Data Source"; ObjectID = "qqw-qd-exV"; */
+"qqw-qd-exV.headerTitle" = "Datenquelle";
+
+/* Class = "UINavigationItem"; title = "Settings"; ObjectID = "rjC-5M-0uC"; */
+"rjC-5M-0uC.title" = "Einstellungen";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "snz-4b-g3x"; */
+"snz-4b-g3x.normalTitle" = "Anmelden";
+
+/* Class = "UITableViewSection"; footerTitle = "Enabling this mode will allow you to change the behavior of this application for debugging purposes"; ObjectID = "zT8-AU-j1T"; */
+"zT8-AU-j1T.footerTitle" = "Fehlerbeseitigungshilfen können mit diesem Modus freigeschalten werden";
+
+/* Class = "UITableViewSection"; headerTitle = "Developer Mode"; ObjectID = "zT8-AU-j1T"; */
+"zT8-AU-j1T.headerTitle" = "Entwicklermodus";
+
+
+
+/*
+ /* WIKI & Motivation screen translation
+ /*
+ /* Class = "UILabel"; text = "With the device in your hands, you are part of a group of 90 at-home researchers from all around the world. Together you have collected XXXX minutes of brain wave data already!"; ObjectID = "ybr-B9-SQ9"; */
+"ybr-B9-SQ9.text" = "With the device in your hands, you are part of a group of 90 at-home researchers from all around the world. Together you have collected XXXX minutes of brain wave data already!";
+
+/* Class = "UILabel"; text = "What are we researching?"; ObjectID = "1KH-7O-WVP"; */
+"1KH-7O-WVP.text" = "What are we researching?";
+
+/* Class = "UILabel"; text = "What else?"; ObjectID = "uO1-UH-QqA"; */
+"uO1-UH-QqA.text" = "What else?";
+
+/* Class = "UILabel"; text = "Thank you for joining an international community of at-home ALS researchers!"; ObjectID = "4yM-Qe-d0u"; */
+"4yM-Qe-d0u.text" = "Thank you for joining an international community of at-home ALS researchers!";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "uzt-A0-3Aa"; */
+"uzt-A0-3Aa.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "For more information on the project, check out our website here. [button]\n"; ObjectID = "tnC-Ni-yqe"; */
+"tnC-Ni-yqe.text" = "For more information on the project, check out our website here. [button]\n";
+
+/* Class = "UILabel"; text = "Describe current issues with the data collection and the importance of ”at home” data collection conditions"; ObjectID = "gOA-5d-7mu"; */
+"gOA-5d-7mu.text" = "Describe current issues with the data collection and the importance of ”at home” data collection conditions";
+
+/* Class = "UILabel"; text = "[Intro section] – make it personal and accessible + pictures?\nWe care about making this technology accessible and easier to use"; ObjectID = "FCf-P4-aw4"; */
+"FCf-P4-aw4.text" = "[Intro section] – make it personal and accessible + pictures?\nWe care about making this technology accessible and easier to use";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "89E-UH-HiP"; */
+"89E-UH-HiP.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "Why is your contribution so essential?"; ObjectID = "71E-2Q-Zsc"; */
+"71E-2Q-Zsc.text" = "Warum ist Ihr Beitrag so wichtig?";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "7Cs-I2-nzF"; */
+"7Cs-I2-nzF.text" = "Label";
+
+/* Class = "UILabel"; text = "Communication through “yes”/”no” brain activity -> website\nTracking alpha peaks and their relation to disease progression\n"; ObjectID = "W26-ZK-bdM"; */
+"W26-ZK-bdM.text" = "Communication through “yes”/”no” brain activity -> website\nTracking alpha peaks and their relation to disease progression\n";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "bhK-B2-i6d"; */
+"bhK-B2-i6d.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "Who else is helping?"; ObjectID = "dzk-HB-iA4"; */
+"dzk-HB-iA4.text" = "Who else is helping?";
+
+/* Class = "UITextView"; text = "GLOBAL DATA COLLECTED"; ObjectID = "jYt-mh-Y54"; */
+"jYt-mh-Y54.text" = "GLOBAL DATA COLLECTED";
+
+/* Class = "UITextView"; text = "7"; ObjectID = "u39-X1-FyI"; */
+"u39-X1-FyI.text" = "7";
+
+/* Class = "UITextView"; text = "people have already completed their first session today!"; ObjectID = "Dgr-ez-Dlh"; */
+"Dgr-ez-Dlh.text" = "Leute haben heute bereits ihre erste Sitzung vollendet!";
+
+/* Class = "UIButton"; normalTitle = "Contribute now!"; ObjectID = "JqF-LX-yvJ"; */
+"JqF-LX-yvJ.normalTitle" = "Jetzt beitragen!";
+
+/* Class = "UIButton"; normalTitle = "[placeholder for global counter]"; ObjectID = "OZa-Ic-a9M"; */
+"OZa-Ic-a9M.normalTitle" = "[placeholder for global counter]";
+
+/* Class = "UILabel"; text = "Who are we?"; ObjectID = "QVC-9m-S37"; */
+"QVC-9m-S37.text" = "Who are we?";
+
+/* Class = "UILabel"; text = "Today"; ObjectID = "SV8-hR-nrm"; Note = "Today"; */
+"SV8-hR-nrm.text" = "Heute";
+
+/* Class = "UILabel"; text = "Done for Today!"; ObjectID = "LtA-uG-RdY"; */
+"LtA-uG-RdY.text" = "Geschafft!";
+
+/* Class = "UILabel"; text = "You finished all trials for today. Thank you very much for your contribution! You can continue with the next set of sessions in a day from now. Tomorrow, you can click the button below to continue."; ObjectID = "7Zt-k7-meS"; */
+"7Zt-k7-meS.text" = "Sie haben alle Durchgänge für heute beendet, vielen Dank für Ihre Hilfe! Sie können die App jetzt schließen und in einem Tag zurückkehren. Klicken Sie morgen auf den Knopf unten, um mit den nächsten Durchgängen zu starten.";
+
+/* Class = "UIButton"; normalTitle = "Continue Study"; ObjectID = "GAy-vd-8I0"; */
+"GAy-vd-8I0.normalTitle" = "Studie fortführen";
+
+/* Class = "UIButton"; normalTitle = "Get Started"; ObjectID = "cAb-uS-YsJ"; */
+"cAb-uS-YsJ.normalTitle" = "Los geht's";
+
+/* Class = "UITableViewController"; title = "Today"; ObjectID = "D04-7t-MuJ"; */
+"D04-7t-MuJ.title" = "Heute";
+
+/* Class = "UILabel"; text = "Shorten Instructions"; ObjectID = "Bea-5c-X6I"; */
+"Bea-5c-X6I.text" = "Kurze Instruktionen";
+
+/* Class = "UIButton"; normalTitle = "Change Names"; ObjectID = "Txv-9p-GUA"; */
+"Txv-9p-GUA.normalTitle" = "Namen ändern";
+
+/* Class = "UIButton"; normalTitle = "Recover Last Message"; ObjectID = "YCt-dd-Hc5"; */
+"YCt-dd-Hc5.normalTitle" = "Letzte Nachricht wiederherstellen";
+
+/* Class = "UITableViewSection"; headerTitle = "Acknowledgements"; ObjectID = "nMy-ZC-Dc9"; */
+"nMy-ZC-Dc9.headerTitle" = "Danksagungen";
+
+/* Class = "UIButton"; normalTitle = "Acknowledgements and Copyright"; ObjectID = "1dr-fy-uHt"; */
+"1dr-fy-uHt.normalTitle" = "Danksagungen und Copyright (Englisch)";
