@@ -4,6 +4,31 @@
 
 This is the Android version of Mynd.
 
+## Motivation for Mynd
+We aim for people to perform EEG experiments without any assistance of an experimenter.
+Participants must be given instructions on how to perform the experiment, i.e.,
+how to use the headband and how to behave during recording. In a nutshell,
+the app needs to accomplish all tasks usually done by an experimenter.
+
+
+## Features: For Subjects
+MYND provides a user-interface that lets subjects:
+- establish a connection with a consumer-grade EEG (currently the Muse EEG headband)
+- fit the headset by using a real-time feedback algorithm on signal quality
+- record neurophysiological data in self-paced studies
+- transfer the data to a server
+
+No internet connection required: data processing, storage, and experiment progression are managed on-device
+
+## Features: For Scientists and Developers
+Scientists and developers can easily extend the MYND application and use it to run large-scale studies.
+- The flexible language Kotlin allows for concise and clean code
+- bluetooth connection to the headband is managed by the libmuse library -- no need to comprehend underlying protocol.
+- multi language support is easily extendable to further languages 
+
+
+
+
 ## Setup
 
 Mynd can connect to a WebDav Server for storing experimental data.
@@ -28,7 +53,7 @@ Gradle 4.4 is used as a build tool with the Android Gradle Plugin Version 3.1.4.
 Android Studio 3.1.4 was used for development. The app was used with a Samsung Galaxy S7 and a Samsung Galaxy S9.
 
 The third party libraries `sardine` and `disposebag` need to be added as directories in the root folder. They are specified
-to be included in the gradle build script.
+to be included in the gradle build script. They were included from this repository, but can easily be retrieved from the sources specified in the subsequent section.
 
 #### Android-DisposeBag
 https://github.com/kizitonwose/android-disposebag
@@ -96,12 +121,6 @@ License: Apache License 2.0
 
 
 
-
-## Motivation for Mynd
-We aim for people to perform EEG experiments without any assistance of an experimenter.
-Participants must be given instructions on how to perform the experiment, i.e.,
-how to use the headband and how to behave during recording. In a nutshell,
-the app needs to accomplish all tasks usually done by an experimenter.
 
 
 ## App Interface
