@@ -24,6 +24,11 @@ This version was developed by Talha Zaman and Raffi Enficiaud as part of their w
 
 *TBA*
 
+## Cite as
+
+Matthias R. Hohmann, Brian Wirth, Michelle Hackl, Talha Zaman, Raffi Enficiaud, Moritz Grosse-Wentrup, & Bernhard Schölkopf. (2020, May 6). MYND: Neuroscience at Home (Version v1.0). Zenodo. http://doi.org/10.5281/zenodo.3802683
+
+
 ## Scientific Publications using MYND
 1. Hohmann, M. R., Konieczny, L., Hackl, M., Wirth, B., Zaman, T., Enficiaud, R., Grosse-Wentrup, M., & Schölkopf, B. (2020). MYND: Unsupervised Evaluation of Novel BCI Control Strategies on Consumer Hardware. http://arxiv.org/abs/2002.11754
 
