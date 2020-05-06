@@ -39,7 +39,7 @@ Data Encryption is not part of this app, but it can easily be integrated (as des
 You may also change `signup_password` (default: 'start'), the password required when starting the application.
 
 
-###SharedPrefs
+### SharedPrefs
 Mynd keeps track of some data like the study state and the user name on the device in 
 SharedPreferences, whenever the app is not in use. In the `SharedPrefsController`, you can change the version name of the app, in case
 breaking changes to the storage model are introduced.
