@@ -65,7 +65,7 @@ https://github.com/thegrizzlylabs/sardine-android
 
 Apache License 2.0
 
-#### Muse SDK
+#### Libmuse (Muse SDK)
 The directory `app/libs` needs to include two items:
 * the `libmuse_android.jar` library for the Interaxon Muse headband.
 * the directory `armeabi-v7a` containing the native code library `libmuse_android.so`
@@ -80,6 +80,8 @@ please request the library on the [Interaxon Website](https://choosemuse.com/dev
 Remark: This app has been developed in Q2/Q3 2018. The latest version of Android Studio comes
 pre-bundled with a later version of the Kotlin language and refuses build with an older version.
 You may consider building with AndroidStudio 3.1.4.
+
+License: Proprietary
 
 #### GifImageView
 https://github.com/felipecsl/GifImageView/
@@ -106,6 +108,7 @@ https://github.com/hdodenhof/CircleImageView
 License: Apache License 2.0
 
 #### Circular Image View (jackandphantom) 
+https://github.com/sparrow007/CircularImageview
 Apache License 2.0
 
 #### RxAndroid
